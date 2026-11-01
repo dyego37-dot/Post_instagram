@@ -64,7 +64,7 @@ slides = [
       '<div class="sub">WhatsApp, Instagram e Telegram ao mesmo tempo</div></div>', 4, T),
  page('<div class="mid"><div class="kicker">OFERTA <b>COM VÍDEO</b></div>'
       '<h2 style="margin-top:20px"><span class="w">POSTA COM O VÍDEO</span><br><span class="b">DO PRODUTO</span></h2><div class="list">'
-      + it('Produto da Shopee com vídeo do vendedor','1') + it('Puxe pela extensão ou cole o link','2') + it('O sistema baixa e posta com o vídeo','3') + '</div>'
+      + it('Produto com vídeo na Shopee, no Mercado Livre ou na Amazon','1') + it('Puxe pela extensão ou cole o link','2') + it('O sistema baixa e posta com o vídeo','3') + '</div>'
       '<div class="sub">Produto sem vídeo sai com a arte de sempre</div></div>', 5, T),
  page('<div class="mid"><div class="kicker">E <b>TEM MAIS</b></div>'
       '<h2 style="margin-top:20px"><span class="w">TUDO NUM</span><br><span class="b">SÓ PAINEL</span></h2><div class="list">'
