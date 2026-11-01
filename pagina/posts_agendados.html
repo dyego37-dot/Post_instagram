@@ -1,0 +1,212 @@
+<title>Posts do @sistemaafiliados</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Figtree:wght@400;500;600&display=swap">
+<style>
+/* Layout: uma coluna estreita tipo feed; cada dia é um bloco com o post (carrossel rolando de lado) e o story ao lado */
+:root{
+  --bg:#f3f6fb; --surface:#ffffff; --fg:#0e1726; --muted:#5b6b82; --line:#dbe3ee;
+  --accent:#1f6fff; --accent-soft:#e3edff;
+  --ok:#11845b; --ok-soft:#e1f5ec; --warn:#a05a00; --warn-soft:#fff1dc; --bad:#c0322b; --bad-soft:#fde6e4;
+  --display:"Sora",system-ui,sans-serif; --body:"Figtree",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#070b14; --surface:#0f1626; --fg:#e8eef8; --muted:#8fa0b8; --line:#1f2a40;
+  --accent:#4d8dff; --accent-soft:#132342;
+  --ok:#3ccf93; --ok-soft:#0e2a20; --warn:#f2a640; --warn-soft:#2c1f0b; --bad:#ff7a70; --bad-soft:#2f1412; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#070b14; --surface:#0f1626; --fg:#e8eef8; --muted:#8fa0b8; --line:#1f2a40;
+  --accent:#4d8dff; --accent-soft:#132342;
+  --ok:#3ccf93; --ok-soft:#0e2a20; --warn:#f2a640; --warn-soft:#2c1f0b; --bad:#ff7a70; --bad-soft:#2f1412; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:720px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:20px}
+header{display:flex;flex-direction:column;gap:6px}
+h1{font-family:var(--display);font-size:1.6rem;line-height:1.15;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{font:600 14px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:8px 14px;cursor:pointer}
+button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.upd{color:var(--muted);font-size:13px;margin-left:auto}
+.msg{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;color:var(--muted)}
+.msg b{color:var(--fg)}
+.day{display:flex;flex-direction:column;gap:10px}
+.dayhead{display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.dayhead h2{font-family:var(--display);font-size:1.1rem;margin:0}
+.dayhead span{color:var(--muted);font-size:13px}
+.tag-today{background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:12px;padding:2px 8px;border-radius:999px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.ihead{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.kind{font-family:var(--display);font-weight:600;font-size:14px}
+.time{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
+.chip{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px}
+.chip.ok{background:var(--ok-soft);color:var(--ok)} .chip.wait{background:var(--accent-soft);color:var(--accent)}
+.chip.bad{background:var(--bad-soft);color:var(--bad)} .chip.warn{background:var(--warn-soft);color:var(--warn)}
+.net{font-size:12px;color:var(--muted)}
+.strip{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px}
+.strip img{flex:0 0 auto;width:68%;max-width:260px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;scroll-snap-align:start;background:var(--line);cursor:zoom-in}
+.strip.story img{width:42%;max-width:170px;aspect-ratio:9/16}
+.strip video{flex:0 0 auto;width:42%;max-width:200px;aspect-ratio:9/16;border-radius:10px;background:#000}
+.count{font-size:12px;color:var(--muted)}
+.cap{white-space:pre-wrap;margin:0;font-size:14px;max-height:7.5em;overflow:hidden;position:relative}
+.cap.open{max-height:none}
+.more{background:none;border:0;padding:0;color:var(--accent);font-size:13px}
+.links{display:flex;flex-wrap:wrap;gap:12px;font-size:14px}
+.links a{color:var(--accent);font-weight:600;text-decoration:none}
+.empty{color:var(--bad);font-weight:600}
+.zoom{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;z-index:20;padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.zoom img{max-height:100%;max-width:100%;border-radius:8px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Posts do @sistemaafiliados</h1>
+    <p class="sub">Tudo o que está agendado no Metricool para o Instagram e o Facebook, com as imagens, a legenda e a situação de cada um. Atualiza sozinho.</p>
+  </header>
+  <div class="bar">
+    <button id="f-next" class="on" type="button">Próximos</button>
+    <button id="f-past" type="button">Já publicados</button>
+    <button id="reload" type="button">Atualizar agora</button>
+    <span class="upd" id="upd"></span>
+  </div>
+  <div id="out"><div class="msg">Carregando os posts do Metricool…</div></div>
+</div>
+<div class="zoom" id="zoom" hidden><img id="zoomimg" alt=""></div>
+
+<script>
+const SERVER="Metricool Social Media Management", TOOL="getScheduledPosts", BRAND="7676659", TZ="America/Sao_Paulo";
+const out=document.getElementById("out"), upd=document.getElementById("upd");
+let mode="next", posts=null, mcpRef=null, unsub=null, idx={};
+fetch("p/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():{}).then(j=>{idx=j||{};render();}).catch(()=>{});
+
+function ymd(d){return d.toLocaleDateString("en-CA",{timeZone:TZ});}
+function todayStr(){return ymd(new Date());}
+function addDays(s,n){const d=new Date(s+"T12:00:00-03:00");d.setUTCDate(d.getUTCDate()+n);return ymd(d);}
+function input(){const t=todayStr();return{brandId:BRAND,fromDate:addDays(t,-10)+"T00:00:00-03:00",toDate:addDays(t,30)+"T23:59:59-03:00",timezone:TZ};}
+
+const DIAS=["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
+const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+function dayLabel(s){const d=new Date(s+"T12:00:00-03:00");return{wd:DIAS[d.getUTCDay()],dm:d.getUTCDate()+" de "+MESES[d.getUTCMonth()]};}
+
+function statusOf(p){
+  const st=(p.providers||[]).map(x=>(x.status||"").toUpperCase());
+  if(!st.length) return ["Sem rede","warn"];
+  if(st.every(s=>s==="PUBLISHED")) return ["Publicado","ok"];
+  if(st.some(s=>s.includes("ERROR")||s.includes("FAIL"))) return ["Deu erro","bad"];
+  if(p.draft) return ["Rascunho","warn"];
+  if(st.some(s=>s==="PUBLISHED")) return ["Publicado em parte","warn"];
+  return ["Agendado","wait"];
+}
+function kindOf(p){
+  const t=(p.instagramData&&p.instagramData.type)||"POST";
+  if(t==="STORY") return "Story";
+  if(t==="REEL") return "Reel";
+  return (p.media||[]).length>1?"Carrossel":"Post";
+}
+const isVideo=u=>/\.(mp4|mov|webm)(\?|$)/i.test(u);
+
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
+
+function render(){
+  if(!posts) return;
+  const t=todayStr();
+  const list=posts.filter(p=>{const d=(p.publicationDate&&p.publicationDate.dateTime||"").slice(0,10);return mode==="next"?d>=t:d<t;})
+    .sort((a,b)=>(a.publicationDate.dateTime<b.publicationDate.dateTime?-1:1)*(mode==="next"?1:-1));
+  out.replaceChildren();
+  if(mode==="next"){
+    const days=new Set(list.map(p=>p.publicationDate.dateTime.slice(0,10)));
+    const missing=[0,1,2].map(n=>addDays(t,n)).filter(d=>!days.has(d));
+    if(missing.length){const m=el("div","msg");m.append(el("b",null,"Atenção: "),document.createTextNode("ainda não há post agendado para "+missing.map(d=>{const l=dayLabel(d);return l.wd+", "+l.dm;}).join(" e ")+". O post de cada dia é criado na tarde anterior, às 17h40."));out.append(m);}
+  }
+  if(!list.length){out.append(el("div","msg",mode==="next"?"Nenhum post agendado daqui para frente.":"Nenhum post publicado nos últimos 10 dias."));return;}
+  const groups={};
+  list.forEach(p=>{const d=p.publicationDate.dateTime.slice(0,10);(groups[d]=groups[d]||[]).push(p);});
+  const box=el("div");box.style.cssText="display:flex;flex-direction:column;gap:22px";
+  Object.keys(groups).forEach(d=>{
+    const sec=el("section","day"),h=el("div","dayhead"),l=dayLabel(d);
+    h.append(el("h2",null,l.wd.charAt(0).toUpperCase()+l.wd.slice(1)+", "+l.dm));
+    if(d===t) h.append(el("span","tag-today","hoje"));
+    else if(d===addDays(t,1)) h.append(el("span","tag-today","amanhã"));
+    sec.append(h);
+    groups[d].sort((a,b)=>a.publicationDate.dateTime<b.publicationDate.dateTime?-1:1).forEach(p=>sec.append(card(p)));
+    box.append(sec);
+  });
+  out.append(box);
+}
+
+function card(p){
+  const c=el("article","item"),hd=el("div","ihead"),k=kindOf(p),[st,cls]=statusOf(p);
+  hd.append(el("span","kind",k),el("span","time",p.publicationDate.dateTime.slice(11,16)),el("span","chip "+cls,st));
+  const nets=(p.providers||[]).map(x=>x.network==="instagram"?"Instagram":x.network==="facebook"?"Facebook":x.network).join(" + ");
+  if(nets) hd.append(el("span","net",nets));
+  c.append(hd);
+  const d=p.publicationDate.dateTime.slice(0,10), loc=idx[d];
+  let media=[];
+  if(loc) media=(k==="Story"?loc.story:loc.post)||[];
+  if(!media.length&&(p.media||[]).length){c.append(el("div","count","As imagens deste dia ainda não foram copiadas para esta página ("+p.media.length+" no Metricool)."));}
+  if(media.length){
+    const s=el("div","strip"+(k==="Story"||k==="Reel"?" story":""));
+    media.forEach((u,i)=>{
+      if(isVideo(u)){const v=el("video");v.src=u;v.controls=true;v.preload="metadata";v.playsInline=true;s.append(v);}
+      else{const im=el("img");im.src=u;im.loading="lazy";im.addEventListener("error",()=>im.remove());im.alt=k+" — imagem "+(i+1);im.addEventListener("click",()=>openZoom(u));s.append(im);}
+    });
+    c.append(s);
+    if(media.length>1) c.append(el("div","count",media.length+" telas — arraste para o lado para ver todas"));
+  }
+  if(p.text){
+    const cap=el("p","cap",p.text);c.append(cap);
+    if(p.text.split("\n").length>5||p.text.length>260){
+      const b=el("button","more","Ver legenda inteira");b.type="button";
+      b.addEventListener("click",()=>{cap.classList.toggle("open");b.textContent=cap.classList.contains("open")?"Mostrar menos":"Ver legenda inteira";});
+      c.append(b);
+    }
+  } else if(k!=="Story") c.append(el("p","empty","Sem legenda"));
+  const links=el("div","links");
+  (p.providers||[]).forEach(x=>{if(x.publicUrl){const a=el("a",null,"Abrir no "+(x.network==="instagram"?"Instagram":"Facebook")+" ↗");a.href=x.publicUrl;a.target="_blank";a.rel="noopener";links.append(a);}
+    if(x.detailedStatus&&/error|fail/i.test(x.detailedStatus)) links.append(el("span","empty",(x.network||"")+": "+x.detailedStatus));});
+  if(links.childNodes.length) c.append(links);
+  return c;
+}
+
+function openZoom(u){const z=document.getElementById("zoom");document.getElementById("zoomimg").src=u;z.hidden=false;}
+document.getElementById("zoom").addEventListener("click",e=>{e.currentTarget.hidden=true;});
+
+function setUpd(res){
+  const ts=res&&res.cache?res.cache.storedAt:Date.now();
+  upd.textContent="Atualizado às "+new Date(ts).toLocaleTimeString("pt-BR",{timeZone:TZ,hour:"2-digit",minute:"2-digit"});
+}
+function showError(err){
+  const m=el("div","msg"),c=err&&err.code;
+  if(c==="needs_reauth") m.textContent="O Metricool pediu para entrar de novo. Abra o claude.ai em Configurações → Conectores e reconecte o Metricool.";
+  else if(c==="server_not_connected"||c==="selection_required") m.textContent="O Metricool não está conectado nesta conta. Adicione o conector do Metricool em Configurações → Conectores do claude.ai.";
+  else if(c==="not_in_manifest"||c==="approval_required"||c==="blocked_by_policy"){m.textContent="Esta página precisa da sua permissão para ler o Metricool. ";const b=el("button",null,"Permitir e carregar");b.type="button";b.addEventListener("click",()=>load(true));m.append(b);}
+  else if(c==="server_unavailable"||c==="upstream_error") m.textContent="O Metricool não respondeu agora. Toque em Atualizar agora daqui a pouco.";
+  else m.textContent="Não deu para ler o Metricool ("+(err&&err.message||"erro desconhecido")+").";
+  if(!posts){out.replaceChildren(m);} else {out.prepend(m);}
+}
+function take(res){
+  const pl=res&&res.payload;const arr=Array.isArray(pl)?pl:(pl&&Array.isArray(pl.data)?pl.data:null);
+  if(!arr){showError({message:"resposta inesperada do Metricool"});return;}
+  posts=arr;setUpd(res);render();
+}
+async function load(manual){
+  if(!mcpRef) return;
+  try{const res=await mcpRef.callTool(SERVER,TOOL,input(),{cache:{refresh:true,staleTime:0,gcTime:600000}});take(res);}
+  catch(e){showError(e);}
+}
+
+document.getElementById("f-next").addEventListener("click",e=>{mode="next";e.currentTarget.classList.add("on");document.getElementById("f-past").classList.remove("on");render();});
+document.getElementById("f-past").addEventListener("click",e=>{mode="past";e.currentTarget.classList.add("on");document.getElementById("f-next").classList.remove("on");render();});
+document.getElementById("reload").addEventListener("click",()=>load(true));
+
+(async()=>{
+  const mcp=window.claude&&window.claude.use?await window.claude.use("mcp"):null;
+  if(!mcp){out.replaceChildren(el("div","msg","Abra esta página dentro do Claude (app ou claude.ai) para ver os posts do Metricool."));return;}
+  mcpRef=mcp;
+  unsub=mcp.watchTool(SERVER,TOOL,input(),ev=>{
+    if(ev.type==="data") take(ev.result);
+    else{const c=ev.error&&ev.error.code;if(c==="approval_required"||c==="not_in_manifest"){load(true);} else showError(ev.error);}
+  },{cache:{staleTime:60000,gcTime:600000},refetchInterval:300000});
+})();
+</script>
