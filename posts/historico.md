@@ -8,3 +8,4 @@
 - 2026-11-01 | carrossel | Quais lojas são automáticas? (Shopee, ML, Lomadee automáticos; Amazon com API; Magalu por link/extensão)
 - 2026-11-02 | carrossel | O sistema rodando por dentro (prints do painel com números ilustrativos de iniciante)
 - 2026-11-03 | carrossel | Você já conhece a Lomadee? (uma conta, 300+ marcas, principais lojas e comissões)
+- 2026-11-05 | carrossel | Você já conhece o Sistema de Afiliados? (WhatsApp, Instagram com EU QUERO, Telegram, vídeo do produto, painel)
