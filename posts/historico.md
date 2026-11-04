@@ -16,3 +16,8 @@
 - 2026-11-08 19h | carrossel tirinha 4 | Amigas no salão: mãe ganha com achadinhos (Tá tudo no link da bio!)
 - 2026-11-09 19h | carrossel tirinha 5 (estilo semirrealista) | Filha configura o sistema, mãe duvida; configura uma vez e depois mexe pelo celular
 - 2026-11-10 19h | carrossel tirinha 6 (semirrealista) | Motoristas de aplicativo no posto: posta no Instagram e Telegram, EU QUERO manda o link
+- 2026-12-06 12h | reel (repost da tirinha 2 de 06/11) | Casal na cozinha, ela duvidou até o celular apitar
+- 2026-12-07 12h | reel (repost da tirinha 3 de 07/11) | Cunhado no churrasco
+- 2026-12-08 12h | reel (repost da tirinha 4 de 08/11) | Amigas no salão
+- 2026-12-09 12h | reel (repost da tirinha 5 de 09/11) | Mãe e filha configurando
+- 2026-12-10 12h | reel (repost da tirinha 6 de 10/11) | Motoristas no posto
