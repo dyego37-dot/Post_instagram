@@ -12,3 +12,4 @@
 2026-11-04 | reel | Seu grupo de ofertas parou? (3 dicas: horário, mensagem curta, sistema posta sozinho)
 - 2026-11-05 19h | carrossel tirinha | Tá postando na mão ainda? (tirinha em 8 quadros, desenhos do Canva; chamada link da bio + QUERO no Direct)
 - 2026-11-06 19h | carrossel tirinha 2 | Ela duvidou até o celular apitar (casal na cozinha; desenhos do Gemini corrigidos; final link da bio)
+- 2026-11-07 19h | carrossel tirinha 3 | Cunhado duvida no churrasco e pede o link (Tá na bio!)
