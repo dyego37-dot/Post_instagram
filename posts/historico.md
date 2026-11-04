@@ -15,3 +15,4 @@
 - 2026-11-07 19h | carrossel tirinha 3 | Cunhado duvida no churrasco e pede o link (Tá na bio!)
 - 2026-11-08 19h | carrossel tirinha 4 | Amigas no salão: mãe ganha com achadinhos (Tá tudo no link da bio!)
 - 2026-11-09 19h | carrossel tirinha 5 (estilo semirrealista) | Filha configura o sistema, mãe duvida; configura uma vez e depois mexe pelo celular
+- 2026-11-10 19h | carrossel tirinha 6 (semirrealista) | Motoristas de aplicativo no posto: posta no Instagram e Telegram, EU QUERO manda o link
