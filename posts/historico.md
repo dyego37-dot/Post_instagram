@@ -14,3 +14,4 @@
 - 2026-11-06 19h | carrossel tirinha 2 | Ela duvidou até o celular apitar (casal na cozinha; desenhos do Gemini corrigidos; final link da bio)
 - 2026-11-07 19h | carrossel tirinha 3 | Cunhado duvida no churrasco e pede o link (Tá na bio!)
 - 2026-11-08 19h | carrossel tirinha 4 | Amigas no salão: mãe ganha com achadinhos (Tá tudo no link da bio!)
+- 2026-11-09 19h | carrossel tirinha 5 (estilo semirrealista) | Filha configura o sistema, mãe duvida; configura uma vez e depois mexe pelo celular
