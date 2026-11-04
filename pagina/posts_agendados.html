@@ -115,9 +115,9 @@ function render(){
     .sort((a,b)=>(a.publicationDate.dateTime<b.publicationDate.dateTime?-1:1)*(mode==="next"?1:-1));
   out.replaceChildren();
   if(mode==="next"){
-    const days=new Set(list.map(p=>p.publicationDate.dateTime.slice(0,10)));
+    const days=new Set(list.filter(p=>parseInt(p.publicationDate.dateTime.slice(11,13),10)<12).map(p=>p.publicationDate.dateTime.slice(0,10)));
     const missing=[0,1,2].map(n=>addDays(t,n)).filter(d=>!days.has(d));
-    if(missing.length){const m=el("div","msg");m.append(el("b",null,"Atenção: "),document.createTextNode("ainda não há post agendado para "+missing.map(d=>{const l=dayLabel(d);return l.wd+", "+l.dm;}).join(" e ")+". O post de cada dia é criado na tarde anterior, às 17h40."));out.append(m);}
+    if(missing.length){const m=el("div","msg");m.append(el("b",null,"Atenção: "),document.createTextNode("ainda não há post das 6h agendado para "+missing.map(d=>{const l=dayLabel(d);return l.wd+", "+l.dm;}).join(" e ")+". O post de cada dia é criado na tarde anterior, às 17h40."));out.append(m);}
   }
   if(!list.length){out.append(el("div","msg",mode==="next"?"Nenhum post agendado daqui para frente.":"Nenhum post publicado nos últimos 10 dias."));return;}
   const groups={};
@@ -143,7 +143,8 @@ function card(p){
   c.append(hd);
   const d=p.publicationDate.dateTime.slice(0,10), loc=idx[d];
   let media=[];
-  if(loc) media=(k==="Story"?loc.story:loc.post)||[];
+  const tarde=parseInt(p.publicationDate.dateTime.slice(11,13),10)>=12;
+  if(loc) media=(k==="Story"?loc.story:(tarde?loc.tarde:loc.post))||[];
   if(!media.length&&(p.media||[]).length){c.append(el("div","count","As imagens deste dia ainda não foram copiadas para esta página ("+p.media.length+" no Metricool)."));}
   if(media.length){
     const s=el("div","strip"+(k==="Story"||k==="Reel"?" story":""));
