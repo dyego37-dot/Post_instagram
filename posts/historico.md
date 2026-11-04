@@ -10,3 +10,4 @@
 - 2026-11-03 | carrossel | Você já conhece a Lomadee? (uma conta, 300+ marcas, principais lojas e comissões)
 - 2026-11-05 | carrossel | Você já conhece o Sistema de Afiliados? (WhatsApp, Instagram com EU QUERO, Telegram, vídeo do produto, painel)
 2026-11-04 | reel | Seu grupo de ofertas parou? (3 dicas: horário, mensagem curta, sistema posta sozinho)
+- 2026-11-05 19h | carrossel tirinha | Tá postando na mão ainda? (tirinha em 8 quadros, desenhos do Canva; chamada link da bio + QUERO no Direct)
