@@ -43,6 +43,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .chip.ok{background:var(--ok-soft);color:var(--ok)} .chip.wait{background:var(--accent-soft);color:var(--accent)}
 .chip.bad{background:var(--bad-soft);color:var(--bad)} .chip.warn{background:var(--warn-soft);color:var(--warn)}
 .net{font-size:12px;color:var(--muted)}
+.what{font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:8px;padding:6px 10px;align-self:flex-start}
 .strip{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px}
 .strip img{flex:0 0 auto;width:68%;max-width:260px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;scroll-snap-align:start;background:var(--line);cursor:zoom-in}
 .strip.story img{width:42%;max-width:170px;aspect-ratio:9/16}
@@ -141,6 +142,9 @@ function card(p){
   const nets=(p.providers||[]).map(x=>x.network==="instagram"?"Instagram":x.network==="facebook"?"Facebook":x.network).join(" + ");
   if(nets) hd.append(el("span","net",nets));
   c.append(hd);
+  const hr=parseInt(p.publicationDate.dateTime.slice(11,13),10);
+  const what=k==="Story"?"📲 Story: aviso que aparece nos stories (some depois de 24h, não tem legenda)":(hr>=12?"🎨 Tirinha da tarde: post do feed":"📰 Post do feed: fica no perfil, com legenda");
+  c.append(el("div","what",what));
   const d=p.publicationDate.dateTime.slice(0,10), loc=idx[d];
   let media=[];
   const tarde=parseInt(p.publicationDate.dateTime.slice(11,13),10)>=12;
