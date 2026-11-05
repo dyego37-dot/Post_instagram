@@ -22,3 +22,4 @@
 - 2026-12-09 12h | reel (repost da tirinha 5 de 09/11) | Mãe e filha configurando
 - 2026-12-10 12h | reel (repost da tirinha 6 de 10/11) | Motoristas no posto
 - 2026-12-05 12h | reel (repost da tirinha 1 de 05/11) | A madrugada: tá postando na mão ainda?
+2026-11-06 | reel | 3 passos para começar agora (cadastro e teste de 7 dias, onde postar, escolha das lojas, o sistema posta 24h)
