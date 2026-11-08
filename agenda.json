@@ -1,0 +1,653 @@
+{
+ "fuso": "America/Sao_Paulo",
+ "obs": "Agenda do @sistemaafiliados lida pelo plugin Agendador de Posts (sistemaafiliado.com.br). Formato em AGENDA.md.",
+ "posts": [
+  {
+   "id": "2026-11-09-0600-carrossel-link-nao-abre",
+   "quando": "2026-11-09 06:00",
+   "tipo": "carrossel",
+   "titulo": "Você manda link que não abre?",
+   "legenda": "Você manda link que não abre?\n\nO cliente clica, dá de cara com produto esgotado e fecha a tela. Essa venda não volta.\n\nO Sistema de Afiliados confere se o produto ainda está na loja antes de postar, então não manda oferta morta. Você só posta o que está disponível.\n\nVocê já perdeu venda por link que não abriu? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-09/01.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-7813316264305701350.jpeg"
+    ],
+    [
+     "posts/2026-11-09/02.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-12891740842467158826.jpeg"
+    ],
+    [
+     "posts/2026-11-09/03.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-18434024051392624004.jpeg"
+    ],
+    [
+     "posts/2026-11-09/04.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-10569099838471492194.jpeg"
+    ],
+    [
+     "posts/2026-11-09/05.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-3641180957817476799.jpeg"
+    ],
+    [
+     "posts/2026-11-09/06.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-446954441523305823.jpeg"
+    ]
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-09-0605-story",
+   "quando": "2026-11-09 06:05",
+   "tipo": "story",
+   "titulo": "Story do post das 6h",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-09/story_1109.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-17191761865714844406.jpeg"
+    ]
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-09-1200-reel-tutorial-shopee",
+   "quando": "2026-11-09 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar a Shopee",
+   "legenda": "Como conectar a Shopee no Sistema de Afiliados, em menos de 1 minuto 👇\n\nVocê pega o AppID e a Senha no painel de afiliado da Shopee, cola no sistema e pronto: ele já busca as ofertas sozinho, com o SEU link de afiliado.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-09_tutorial_shopee/tutorial_shopee.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-10126696334963585197.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-09_tutorial_shopee/capa_tutorial_shopee.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-2202870745985465754.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-09-1800-reel-como-funciona",
+   "quando": "2026-11-09 18:00",
+   "tipo": "reel",
+   "titulo": "Como o sistema funciona em 1 minuto",
+   "legenda": "Como o Sistema de Afiliados funciona, em 1 minuto 👇\n\nEle busca as ofertas direto na Shopee, Mercado Livre e Lomadee, cria a arte com preço e desconto e publica sozinho no WhatsApp, no Telegram e no Instagram. Comentou EU QUERO? O link chega no Direct na hora.\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/reel_1min_como_funciona.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-7898679425645233262.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-08-vsl/capa_como_funciona.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-6096238185095378767.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-09-1805-story-blackfriday",
+   "quando": "2026-11-09 18:05",
+   "tipo": "story",
+   "titulo": "Story da VSL Black Friday (remarcado de 08/11)",
+   "legenda": "",
+   "midias": [
+    [
+     "https://static.metricool.com/planner/202611/7676659-file-15909502009595740496.jpeg"
+    ]
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-09-1900-tirinha-mae-filha",
+   "quando": "2026-11-09 19:00",
+   "tipo": "carrossel",
+   "titulo": "Tirinha: Isso aí vai dar certo mesmo, filha?",
+   "legenda": "\"Isso aí vai dar certo mesmo, filha?\" 🤨\n\nToda mãe pergunta isso. E a resposta é simples: você configura o sistema uma vez só, no começo. Depois mexe em tudo pelo celular.\n\nO Sistema de Afiliados busca as ofertas e posta nos seus grupos sozinho, 24h por dia. Você só acompanha as vendas chegando. 💰\n\nMarca aqui quem ainda acha que é complicado 👇\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-09-tirinha/01.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-8363433725721069045.jpeg"
+    ],
+    [
+     "posts/2026-11-09-tirinha/02.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-929087243614177911.jpeg"
+    ],
+    [
+     "posts/2026-11-09-tirinha/03.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-9451827093153063153.jpeg"
+    ],
+    [
+     "posts/2026-11-09-tirinha/04.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-3401955495175184681.jpeg"
+    ],
+    [
+     "posts/2026-11-09-tirinha/05.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-6628575527881435845.jpeg"
+    ],
+    [
+     "posts/2026-11-09-tirinha/06.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-12928558143256531465.jpeg"
+    ],
+    [
+     "posts/2026-11-09-tirinha/07.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-16890019269575103852.jpeg"
+    ],
+    [
+     "posts/2026-11-09-tirinha/08.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-17658546080318121411.jpeg"
+    ]
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-09-2000-story-vsl-parte1",
+   "quando": "2026-11-09 20:00",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 1 de 4 (remarcado de 08/11)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte1.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-5249533735922943534.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-09-2003-story-vsl-parte2",
+   "quando": "2026-11-09 20:03",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 2 de 4 (remarcado de 08/11)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte2.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-3719487586438331752.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-09-2006-story-vsl-parte3",
+   "quando": "2026-11-09 20:06",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 3 de 4 (remarcado de 08/11)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte3.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-18198474233890668021.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-09-2009-story-vsl-parte4",
+   "quando": "2026-11-09 20:09",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 4 de 4 (remarcado de 08/11)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte4.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-6348343575153101860.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-10-1200-reel-tutorial-mercadolivre",
+   "quando": "2026-11-10 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar o Mercado Livre",
+   "legenda": "Como conectar o Mercado Livre no Sistema de Afiliados 👇\n\nVocê entra no programa de afiliados do ML, gera um link no Gerador de links e cola no sistema. Ele tira a sua tag sozinho e já busca os mais vendidos com a SUA comissão.\n\n⚠️ O Gerador de links é usado pelo COMPUTADOR.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadomercadolivre #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "https://static.metricool.com/planner/202611/7676659-file-10453707363744350122.mp4",
+     "posts/2026-11-10_tutorial_mercadolivre/tutorial_mercadolivre_v2.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-10_tutorial_mercadolivre/capa_tutorial_mercadolivre.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-3799908289094656504.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-10-1800-reel-seguranca-preco",
+   "quando": "2026-11-10 18:00",
+   "tipo": "reel",
+   "titulo": "Medo de tomar ban no WhatsApp?",
+   "legenda": "Medo de tomar ban no WhatsApp? 🛡️\n\nO Sistema de Afiliados posta nos seus grupos no automático com pausa entre um grupo e outro, limite de mensagens por hora e sem repetir a mesma oferta. Seu número fica protegido.\n\nTeste 7 dias grátis, sem cartão e sem Pix. Depois, planos a partir de R$ 67.\n\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/reel_1min_seguranca_preco.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-5842920734687765220.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-08-vsl/capa_seguranca_preco.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-7015995328875533715.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-10-1900-tirinha-motoristas",
+   "quando": "2026-11-10 19:00",
+   "tipo": "carrossel",
+   "titulo": "Tirinha: Rodando 12 horas por dia",
+   "legenda": "Rodando 12 horas por dia e não sobra nada? 🚗💸\n\nA Bruna também dirige, mas tem uma renda extra que trabalha enquanto ela roda.\n\nO Sistema de Afiliados posta as ofertas sozinho no WhatsApp, no Instagram e no Telegram. No Instagram, quem comenta \"EU QUERO\" recebe o link na hora.\n\nMarca aqui o amigo motorista que precisa ver isso 👇\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-10-tirinha/01.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-5967715415080188804.jpeg"
+    ],
+    [
+     "posts/2026-11-10-tirinha/02.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-15414499412265233538.jpeg"
+    ],
+    [
+     "posts/2026-11-10-tirinha/03.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-16806373973193457123.jpeg"
+    ],
+    [
+     "posts/2026-11-10-tirinha/04.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-15873865680367665061.jpeg"
+    ],
+    [
+     "posts/2026-11-10-tirinha/05.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-13103301090716233133.jpeg"
+    ],
+    [
+     "posts/2026-11-10-tirinha/06.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-12248496064096450320.jpeg"
+    ],
+    [
+     "posts/2026-11-10-tirinha/07.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-16267586196875976612.jpeg"
+    ],
+    [
+     "posts/2026-11-10-tirinha/08.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-9943127382089912525.jpeg"
+    ]
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-11-1200-reel-grupos-reais",
+   "quando": "2026-11-11 12:00",
+   "tipo": "reel",
+   "titulo": "Minha operação real rodando",
+   "legenda": "Oferta caindo nos grupos o dia inteiro e eu nem encostei no celular 📲🔥\n\nEssa é a minha operação real rodando no Sistema de Afiliados. Ele não copia oferta de grupo de ninguém: busca direto na Shopee, no Mercado Livre e na Lomadee, gera o SEU link de afiliado e posta sozinho em 4 a 10 grupos de WhatsApp ao mesmo tempo, além do Telegram e do Instagram. E ainda tem a opção da Amazon e da Magalu.\n\nQuer a sua operação assim?\n💬 Comenta EU QUERO que eu te mando o link\n🔗 Ou faça seu teste de 7 dias grátis pelo link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-11_reel_grupos_reais/reel.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-8819517295247131447.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-11_reel_grupos_reais/capa.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-14866073116761501330.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-11-1900-reel-tirinha-grupo-perdendo-gente",
+   "quando": "2026-11-11 19:00",
+   "tipo": "reel",
+   "titulo": "Tirinha: seu grupo está perdendo gente?",
+   "legenda": "Seu grupo está perdendo gente? 😰\n\nA Renata mandava qualquer oferta na correria: furadeira no grupo das mães, o mesmo produto três vezes… e o pessoal foi saindo.\n\nNo Sistema de Afiliados, cada grupo recebe só ofertas do assunto dele, sem ficar repetindo o mesmo produto. O grupo fica bom de participar e só cresce.\n\nSeu grupo já perdeu gente por isso? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-11-tirinha/reel_tirinha_1111.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-15161258755752326849.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-11-tirinha/capa_tirinha_1111.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-4922106786273049993.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-12-1200-reel-tutorial-lomadee",
+   "quando": "2026-11-12 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar a Lomadee",
+   "legenda": "Como conectar a Lomadee no Sistema de Afiliados 👇\n\nCom a Lomadee conectada, o sistema busca ofertas de dezenas de lojas, como Americanas, Centauro e KaBuM, e posta com o SEU link de afiliado. É só criar o canal, gerar a chave de API e colar no sistema.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #lomadee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "https://static.metricool.com/planner/202611/7676659-file-4405697948733027603.mp4",
+     "posts/2026-11-12_tutorial_lomadee/tutorial_lomadee_v2.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-12_tutorial_lomadee/capa_tutorial_lomadee.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-7145732627297617797.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-12-1900-reel-tirinha-eu-quero-3-horas",
+   "quando": "2026-11-12 19:00",
+   "tipo": "reel",
+   "titulo": "Tirinha: viu o EU QUERO 3 horas depois",
+   "legenda": "Você viu o \"EU QUERO\" 3 horas depois? 😩\n\nA Júlia postou um achadinho, foi trabalhar e só viu os comentários à noite. Quando mandou o link, a pessoa já tinha comprado em outro lugar.\n\nNo Sistema de Afiliados, quem comenta \"EU QUERO\" recebe o link no Direct na hora, sozinho. Você trabalha tranquila e a venda não escapa.\n\nJá perdeu venda assim? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-12-tirinha/reel_tirinha_1112.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-4971107457612593979.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-12-tirinha/capa_tirinha_1112.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-8668272446909383822.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-13-1200-reel-tutorial-magalu",
+   "quando": "2026-11-13 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar a Magalu",
+   "legenda": "Como conectar a Magalu no Sistema de Afiliados 👇\n\nVocê cria a sua loja grátis no Parceiro Magalu, cola o link de um produto no sistema e ele aprende o seu código de parceiro. Depois é só mandar os produtos pelo link ou pela extensão do Chrome.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #parceiromagalu #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-13_tutorial_magalu/tutorial_magalu.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-6606779582673466142.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-13_tutorial_magalu/capa_tutorial_magalu.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-11149186329072891065.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-13-1900-reel-tirinha-black-friday",
+   "quando": "2026-11-13 19:00",
+   "tipo": "reel",
+   "titulo": "Tirinha: Black Friday, vai varar a noite?",
+   "legenda": "Black Friday: vai varar a noite postando? 😵‍💫\n\nA Lu encheu o quarto de energético pra postar a madrugada toda. O preço mudou, a oferta acabou antes de ela postar… e às 5h ela dormiu em cima do notebook com o grupo parado.\n\nNo Sistema de Afiliados, o sistema busca as ofertas e posta nos seus grupos 24h, até de madrugada. Você descansa e a Black Friday continua vendendo.\n\nVocê vai trabalhar ou descansar nessa Black Friday? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-13-tirinha/reel_tirinha_1113.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-10989281347792770083.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-13-tirinha/capa_tirinha_1113.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-6465303299919696944.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-14-1200-reel-tutorial-amazon",
+   "quando": "2026-11-14 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar a Amazon",
+   "legenda": "Como conectar a Amazon no Sistema de Afiliados 👇\n\nVocê pega a sua tag de afiliado (aquela que termina em -20), cola no sistema e pronto: os produtos da Amazon que você adiciona pelo link ou pela extensão já saem com o SEU link.\n\n⚠️ A tag é pega pelo COMPUTADOR, na Central de Associados.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoamazon #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "https://static.metricool.com/planner/202611/7676659-file-7631977784863826005.mp4",
+     "posts/2026-11-14_tutorial_amazon/tutorial_amazon_v2.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-14_tutorial_amazon/capa_tutorial_amazon.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-1155571775141528842.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-14-1900-tirinha-amigas-salao",
+   "quando": "2026-11-14 19:00",
+   "tipo": "carrossel",
+   "titulo": "Tirinha: amigas no salão (remarcado de 08/11)",
+   "legenda": "Sem tempo e sem dinheiro? A Carla também tava assim… 💅💰\n\nHoje ela cuida do filho, faz a unha com as amigas e as vendas continuam caindo.\n\nO Sistema de Afiliados busca os achadinhos e posta nos seus grupos sozinho, 24h por dia. Perfeito pra quem é mãe e quer uma renda extra sem sair de casa.\n\nMarca aqui a amiga que precisa ver isso 👇\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-08-tirinha/01.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-16435943453318613048.jpeg"
+    ],
+    [
+     "posts/2026-11-08-tirinha/02.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-15494226083440534948.jpeg"
+    ],
+    [
+     "posts/2026-11-08-tirinha/03.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-12998809642236569450.jpeg"
+    ],
+    [
+     "posts/2026-11-08-tirinha/04.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-2359826023909650660.jpeg"
+    ],
+    [
+     "posts/2026-11-08-tirinha/05.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-17511390223957035363.jpeg"
+    ],
+    [
+     "posts/2026-11-08-tirinha/06.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-13702517720076373358.jpeg"
+    ],
+    [
+     "posts/2026-11-08-tirinha/07.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-1839020730279391138.jpeg"
+    ],
+    [
+     "posts/2026-11-08-tirinha/08.jpg",
+     "https://static.metricool.com/planner/202611/7676659-file-7587868274316562393.jpeg"
+    ]
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-15-1200-reel-tutorial-instagram",
+   "quando": "2026-11-15 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar o Instagram",
+   "legenda": "Como conectar o Instagram no Sistema de Afiliados 👇\n\nCom o Instagram conectado, o sistema publica as ofertas sozinho e, quando alguém comenta EU QUERO, manda o link no Direct na hora. A conexão é em 2 cliques, sem mexer em nada técnico.\n\n⚠️ Importante: o convite do testador só aparece no Instagram pelo COMPUTADOR. No app do celular ele não aparece.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "https://static.metricool.com/planner/202611/7676659-file-4210540042743369019.mp4",
+     "posts/2026-11-15_tutorial_instagram/tutorial_instagram_v2.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-15_tutorial_instagram/capa_tutorial_instagram.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-9916567452044317025.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-12-05-1200-reel-tirinha-madrugada",
+   "quando": "2026-12-05 12:00",
+   "tipo": "reel",
+   "titulo": "Tirinha em Reels: tá postando na mão até de madrugada?",
+   "legenda": "Você também posta oferta na mão até de madrugada? 😴📱\n\nEnquanto uns passam a noite garimpando e postando grupo por grupo, outros deixam o sistema trabalhar e acordam com venda caindo.\n\nO Sistema de Afiliados busca as ofertas e posta nos seus grupos sozinho, 24h por dia.\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-12-05-tirinha/reel_tirinha_1205.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-5112918169495557795.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-12-05-tirinha/capa_tirinha_1205.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-11177878060718756993.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-12-06-1200-reel-tirinha-casal-cozinha",
+   "quando": "2026-12-06 12:00",
+   "tipo": "reel",
+   "titulo": "Tirinha em Reels: ela duvidou até o celular apitar",
+   "legenda": "Ela duvidou… até o celular apitar 😅💰\n\nEnquanto ele toma café, o Sistema de Afiliados busca as ofertas da Shopee e do Mercado Livre e posta nos grupos sozinho, 24h por dia.\n\nVenda caindo e tempo sobrando pra quem importa.\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-12-06-tirinha/reel_tirinha_1206.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-10883431813254953507.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-12-06-tirinha/capa_tirinha_1206.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-3666011728177677600.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-12-07-1200-reel-tirinha-cunhado-churrasco",
+   "quando": "2026-12-07 12:00",
+   "tipo": "reel",
+   "titulo": "Tirinha em Reels: o cunhado no churrasco",
+   "legenda": "Todo churrasco tem aquele cunhado que duvida… 😂🍖\n\nAté o celular apitar com venda na frente dele.\n\nO Sistema de Afiliados busca as ofertas e posta nos seus grupos sozinho, 24h por dia. Você curte o fim de semana e as vendas continuam caindo.\n\nMarca aqui o cunhado que precisa ver isso 👇\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-12-07-tirinha/reel_tirinha_1207.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-14573834459155039822.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-12-07-tirinha/capa_tirinha_1207.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-7554009655632884741.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-12-08-1200-reel-tirinha-amigas-salao",
+   "quando": "2026-12-08 12:00",
+   "tipo": "reel",
+   "titulo": "Tirinha em Reels: amigas no salão",
+   "legenda": "Sem tempo e sem dinheiro? A Carla também tava assim… 💅💰\n\nHoje ela cuida do filho, faz a unha com as amigas e as vendas continuam caindo.\n\nO Sistema de Afiliados busca os achadinhos e posta nos seus grupos sozinho, 24h por dia. Perfeito pra quem é mãe e quer uma renda extra sem sair de casa.\n\nMarca aqui a amiga que precisa ver isso 👇\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-12-08-tirinha/reel_tirinha_1208.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-12394127428896444388.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-12-08-tirinha/capa_tirinha_1208.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-7697201561349179994.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-12-09-1200-reel-tirinha-mae-filha",
+   "quando": "2026-12-09 12:00",
+   "tipo": "reel",
+   "titulo": "Tirinha em Reels: mãe e filha configurando",
+   "legenda": "\"Isso aí vai dar certo mesmo, filha?\" 🤨\n\nToda mãe pergunta isso. E a resposta é simples: você configura o sistema uma vez só, no começo. Depois mexe em tudo pelo celular.\n\nO Sistema de Afiliados busca as ofertas e posta nos seus grupos sozinho, 24h por dia. Você só acompanha as vendas chegando. 💰\n\nMarca aqui quem ainda acha que é complicado 👇\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-12-09-tirinha/reel_tirinha_1209.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-16805409415999414845.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-12-09-tirinha/capa_tirinha_1209.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-616953669335470574.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-12-10-1200-reel-tirinha-motoristas",
+   "quando": "2026-12-10 12:00",
+   "tipo": "reel",
+   "titulo": "Tirinha em Reels: motoristas no posto",
+   "legenda": "Rodando 12 horas por dia e não sobra nada? 🚗💸\n\nA Bruna também dirige, mas tem uma renda extra que trabalha enquanto ela roda.\n\nO Sistema de Afiliados posta as ofertas sozinho no WhatsApp, no Instagram e no Telegram. No Instagram, quem comenta \"EU QUERO\" recebe o link na hora.\n\nMarca aqui o amigo motorista que precisa ver isso 👇\n\n🔗 Faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-12-10-tirinha/reel_tirinha_1210.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-5918342186154751043.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-12-10-tirinha/capa_tirinha_1210.jpg",
+    "https://static.metricool.com/planner/202611/7676659-file-10731660516213766568.jpeg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  }
+ ]
+}
