@@ -39,3 +39,4 @@
 2026-11-12 | reels 12h | tutorial: como conectar a Lomadee
 2026-11-14 | reels 12h | tutorial: como conectar a Amazon
 2026-11-15 | reels 12h | tutorial: como conectar o Instagram
+2026-11-09 | carrossel 6 telas | Você manda link que não abre? (produto esgotado, o sistema confere antes de postar; teste 7 dias)
