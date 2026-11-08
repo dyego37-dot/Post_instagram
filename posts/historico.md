@@ -32,3 +32,4 @@
 - 2026-11-08 20h | 4 stories (VSL completa em pé, partes 1-4) | para o destaque Como funciona
 - 2026-11-09 18h | reel VSL 1min Como funciona | fontes oficiais, arte, 3 canais, EU QUERO, painel, 7 dias grátis
 - 2026-11-10 18h | reel VSL 1min Segurança e preço | postam sozinhos, número protegido, 7 dias grátis, planos a partir de R$ 67, risco zero
+- 2026-11-11 12h | reel grupos reais (35s, voz ElevenLabs Nassif, estilo do concorrente Redirect Flow) | gravação real do grupo Achadinhos Nota 10, não copia de grupo, Shopee/ML/Lomadee, 4 a 10 grupos + Telegram + Instagram, opção Amazon/Magalu (final: comenta EU QUERO)
