@@ -34,3 +34,4 @@
 - 2026-11-10 18h | reel VSL 1min Segurança e preço | postam sozinhos, número protegido, 7 dias grátis, planos a partir de R$ 67, risco zero
 - 2026-11-11 12h | reel grupos reais (35s, voz ElevenLabs Nassif, estilo do concorrente Redirect Flow) | gravação real do grupo Achadinhos Nota 10, não copia de grupo, Shopee/ML/Lomadee, 4 a 10 grupos + Telegram + Instagram, opção Amazon/Magalu (final: comenta EU QUERO)
 2026-11-09 | reels 12h | tutorial: como conectar a Shopee
+2026-11-10 | reels 12h | tutorial: como conectar o Mercado Livre
