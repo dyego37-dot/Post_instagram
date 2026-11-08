@@ -35,3 +35,4 @@
 - 2026-11-11 12h | reel grupos reais (35s, voz ElevenLabs Nassif, estilo do concorrente Redirect Flow) | gravação real do grupo Achadinhos Nota 10, não copia de grupo, Shopee/ML/Lomadee, 4 a 10 grupos + Telegram + Instagram, opção Amazon/Magalu (final: comenta EU QUERO)
 2026-11-09 | reels 12h | tutorial: como conectar a Shopee
 2026-11-10 | reels 12h | tutorial: como conectar o Mercado Livre
+2026-11-13 | reels 12h | tutorial: como conectar a Magalu
