@@ -38,3 +38,4 @@
 2026-11-13 | reels 12h | tutorial: como conectar a Magalu
 2026-11-12 | reels 12h | tutorial: como conectar a Lomadee
 2026-11-14 | reels 12h | tutorial: como conectar a Amazon
+2026-11-15 | reels 12h | tutorial: como conectar o Instagram
