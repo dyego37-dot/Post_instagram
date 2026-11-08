@@ -26,3 +26,4 @@
 2026-11-07 | carrossel | O que o sistema faz sozinho e o que fica com você (busca, link, mensagem e postagem x quem decide; teste de 7 dias)
 2026-11-08 | carrossel com prints | Primeiro mês na prática: painel, cliques por canal, comissão e acompanhamento no celular (imagem ilustrativa)
 - 2026-11-12 19h | reel tirinha 7 (fotos realistas do Gemini) | Ela viu o EU QUERO 3 horas depois: perdeu a venda; a amiga mostra o link chegando no Direct na hora (final: teste 7 dias no link da bio)
+- 2026-11-11 19h | reel tirinha 8 (fotos realistas do Gemini) | Furadeira no grupo das mães: oferta repetida e fora do assunto faz o grupo perder gente; a irmã mostra cada grupo recebendo só ofertas do assunto dele (final: oferta certa no grupo certo, teste 7 dias no link da bio)
