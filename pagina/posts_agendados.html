@@ -3,7 +3,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Figtree:wght@400;500;600&display=swap">
 <style>
-/* Layout: uma coluna estreita tipo feed; cada dia é um bloco com o post (carrossel rolando de lado) e o story ao lado */
 :root{
   --bg:#f3f6fb; --surface:#ffffff; --fg:#0e1726; --muted:#5b6b82; --line:#dbe3ee;
   --accent:#1f6fff; --accent-soft:#e3edff;
@@ -33,7 +32,6 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .day{display:flex;flex-direction:column;gap:10px}
 .dayhead{display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--line);padding-bottom:6px}
 .dayhead h2{font-family:var(--display);font-size:1.1rem;margin:0}
-.dayhead span{color:var(--muted);font-size:13px}
 .tag-today{background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:12px;padding:2px 8px;border-radius:999px}
 .item{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
 .ihead{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
@@ -57,7 +55,6 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .empty{color:var(--bad);font-weight:600}
 .zoom{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;z-index:20;padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
 .zoom img{max-height:100%;max-width:100%;border-radius:8px}
-@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
 </style>
 
 <div class="wrap">
@@ -78,7 +75,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 <script>
 const SERVER="Metricool Social Media Management", TOOL="getScheduledPosts", BRAND="7676659", TZ="America/Sao_Paulo";
 const out=document.getElementById("out"), upd=document.getElementById("upd");
-let mode="next", posts=null, mcpRef=null, unsub=null, idx={};
+let mode="next", posts=null, mcpRef=null, idx={};
 fetch("p/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():{}).then(j=>{idx=j||{};render();}).catch(()=>{});
 
 function ymd(d){return d.toLocaleDateString("en-CA",{timeZone:TZ});}
@@ -102,12 +99,40 @@ function statusOf(p){
 function kindOf(p){
   const t=(p.instagramData&&p.instagramData.type)||"POST";
   if(t==="STORY") return "Story";
-  if(t==="REEL") return "Reel";
+  if(t==="REEL") return "Reels";
   return (p.media||[]).length>1?"Carrossel":"Post";
 }
 const isVideo=u=>/\.(mp4|mov|webm)(\?|$)/i.test(u);
 
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
+
+/* Escolhe as imagens guardadas nesta página para um post. Só usa quando batem com o post do Metricool
+   (mesma quantidade de arquivos e mesmo período do dia); se não baterem, não mostra imagem de outro post. */
+function localMedia(p,k){
+  const d=p.publicationDate.dateTime.slice(0,10), loc=idx[d]; if(!loc) return [];
+  const tarde=parseInt(p.publicationDate.dateTime.slice(11,13),10)>=12;
+  let list;
+  if(k==="Story") list=tarde?[]:(loc.story||[]);
+  else list=tarde?(loc.tarde||[]):(loc.post||[]);
+  const n=(p.media||[]).length;
+  if(!list.length||list.length!==n) return [];
+  return list;
+}
+
+
+function remoteStrip(urls,k){
+  const wrap=el("div"),s=el("div","strip"+(k==="Story"||k==="Reels"?" story":"")),note=el("div","count");
+  let left=urls.length;
+  const fail=()=>{left--;if(left<=0){s.remove();note.textContent=urls.some(isVideo)?"Vídeo — para assistir, abra no Metricool.":"A imagem está no Metricool.";}};
+  urls.forEach((u,i)=>{
+    if(isVideo(u)){const v=el("video");v.src=u;v.controls=true;v.preload="metadata";v.playsInline=true;v.muted=true;v.addEventListener("error",()=>{v.remove();fail();});s.append(v);}
+    else{const im=el("img");im.src=u;im.alt=k+" "+(i+1);im.addEventListener("error",()=>{im.remove();fail();});im.addEventListener("click",()=>openZoom(u));s.append(im);}
+  });
+  wrap.append(s,note);
+  if(urls.length>1) note.textContent=urls.length+(k==="Story"?" stories":" telas")+" — arraste para o lado para ver todos";
+  return wrap;
+}
+const NOME={"Story":"story","Reels":"Reels","Carrossel":"tirinha (carrossel)","Post":"post"};
 
 function render(){
   if(!posts) return;
@@ -130,7 +155,18 @@ function render(){
     if(d===t) h.append(el("span","tag-today","hoje"));
     else if(d===addDays(t,1)) h.append(el("span","tag-today","amanhã"));
     sec.append(h);
-    groups[d].sort((a,b)=>a.publicationDate.dateTime<b.publicationDate.dateTime?-1:1).forEach(p=>sec.append(card(p)));
+    const items=groups[d].sort((a,b)=>a.publicationDate.dateTime<b.publicationDate.dateTime?-1:1);
+    const blocks=[];
+    items.forEach(p=>{
+      const last=blocks[blocks.length-1];
+      const mins=x=>{const t=x.publicationDate.dateTime;return parseInt(t.slice(11,13),10)*60+parseInt(t.slice(14,16),10);};
+      if(kindOf(p)==="Story"&&last&&kindOf(last[last.length-1])==="Story"&&mins(p)-mins(last[last.length-1])<=15) last.push(p);
+      else blocks.push([p]);
+    });
+    const resumo=blocks.map(b=>{const h=b[0].publicationDate.dateTime.slice(11,16).replace(":00","h").replace(":","h");
+      const k=kindOf(b[0]);return h+" "+(k==="Story"&&b.length>1?b.length+" stories":NOME[k]);});
+    sec.append(el("div","count","No dia: "+resumo.join(" · ")));
+    blocks.forEach(b=>sec.append(b.length>1?storyGroup(b):card(b[0])));
     box.append(sec);
   });
   out.append(box);
@@ -141,23 +177,27 @@ function card(p){
   hd.append(el("span","kind",k),el("span","time",p.publicationDate.dateTime.slice(11,16)),el("span","chip "+cls,st));
   const nets=(p.providers||[]).map(x=>x.network==="instagram"?"Instagram":x.network==="facebook"?"Facebook":x.network).join(" + ");
   if(nets) hd.append(el("span","net",nets));
+  if(p.instagramData&&Array.isArray(p.instagramData.collaborators)&&p.instagramData.collaborators.length)
+    hd.append(el("span","net","em parceria com @"+p.instagramData.collaborators.map(x=>x.username).join(", @")));
   c.append(hd);
   const hr=parseInt(p.publicationDate.dateTime.slice(11,13),10);
-  const what=k==="Story"?"📲 Story: aviso que aparece nos stories (some depois de 24h, não tem legenda)":(hr>=12?"🎨 Tirinha da tarde: post do feed":"📰 Post do feed: fica no perfil, com legenda");
+  let what;
+  if(k==="Story") what="📲 Story: aparece nos stories (some depois de 24h, não tem legenda)";
+  else if(k==="Reels") what="🎬 Reels: vídeo no feed e na aba de Reels";
+  else if(k==="Carrossel"&&hr>=12) what="🎨 Tirinha da tarde: carrossel no feed";
+  else what="📰 Post do feed: fica no perfil, com legenda";
   c.append(el("div","what",what));
-  const d=p.publicationDate.dateTime.slice(0,10), loc=idx[d];
-  let media=[];
-  const tarde=parseInt(p.publicationDate.dateTime.slice(11,13),10)>=12;
-  if(loc) media=(k==="Story"?loc.story:(tarde?loc.tarde:loc.post))||[];
-  if(!media.length&&(p.media||[]).length){c.append(el("div","count","As imagens deste dia ainda não foram copiadas para esta página ("+p.media.length+" no Metricool)."));}
+  const media=localMedia(p,k);
   if(media.length){
-    const s=el("div","strip"+(k==="Story"||k==="Reel"?" story":""));
+    const s=el("div","strip"+(k==="Story"||k==="Reels"?" story":""));
     media.forEach((u,i)=>{
       if(isVideo(u)){const v=el("video");v.src=u;v.controls=true;v.preload="metadata";v.playsInline=true;s.append(v);}
       else{const im=el("img");im.src=u;im.loading="lazy";im.addEventListener("error",()=>im.remove());im.alt=k+" — imagem "+(i+1);im.addEventListener("click",()=>openZoom(u));s.append(im);}
     });
     c.append(s);
     if(media.length>1) c.append(el("div","count",media.length+" telas — arraste para o lado para ver todas"));
+  } else if((p.media||[]).length){
+    c.append(remoteStrip(p.media,k));
   }
   if(p.text){
     const cap=el("p","cap",p.text);c.append(cap);
@@ -171,6 +211,18 @@ function card(p){
   (p.providers||[]).forEach(x=>{if(x.publicUrl){const a=el("a",null,"Abrir no "+(x.network==="instagram"?"Instagram":"Facebook")+" ↗");a.href=x.publicUrl;a.target="_blank";a.rel="noopener";links.append(a);}
     if(x.detailedStatus&&/error|fail/i.test(x.detailedStatus)) links.append(el("span","empty",(x.network||"")+": "+x.detailedStatus));});
   if(links.childNodes.length) c.append(links);
+  return c;
+}
+
+
+function storyGroup(b){
+  const c=el("article","item"),hd=el("div","ihead"),[st,cls]=statusOf(b[0]);
+  const t1=b[0].publicationDate.dateTime.slice(11,16),t2=b[b.length-1].publicationDate.dateTime.slice(11,16);
+  hd.append(el("span","kind",b.length+" stories em sequência"),el("span","time",t1+" a "+t2),el("span","chip "+cls,st));
+  c.append(hd);
+  c.append(el("div","what","📲 Saem um atrás do outro e aparecem juntos nos stories (somem depois de 24h)"));
+  const urls=[];b.forEach(p=>(p.media||[]).forEach(u=>urls.push(u)));
+  if(urls.length) c.append(remoteStrip(urls,"Story"));
   return c;
 }
 
@@ -195,23 +247,31 @@ function take(res){
   if(!arr){showError({message:"resposta inesperada do Metricool"});return;}
   posts=arr;setUpd(res);render();
 }
-async function load(manual){
-  if(!mcpRef) return;
-  try{const res=await mcpRef.callTool(SERVER,TOOL,input(),{cache:{refresh:true,staleTime:0,gcTime:600000}});take(res);}
-  catch(e){showError(e);}
+function ranges(){const t=todayStr(),out=[];for(let d=-10;d<=30;d+=4){const a=addDays(t,d),b=addDays(t,Math.min(d+3,30));out.push({brandId:BRAND,fromDate:a+"T00:00:00-03:00",toDate:b+"T23:59:59-03:00",timezone:TZ});}return out;}
+let loading=false;
+async function load(){
+  if(!mcpRef||loading) return; loading=true;
+  const all={}; let fail=null, last=null;
+  for(const inp of ranges()){
+    try{const res=await mcpRef.callTool(SERVER,TOOL,inp,{cache:{refresh:true,staleTime:0,gcTime:600000}});
+      const pl=res&&res.payload;const arr=Array.isArray(pl)?pl:(pl&&Array.isArray(pl.data)?pl.data:[]);
+      arr.forEach(p=>{all[p.uuid||p.id]=p;}); last=res;}
+    catch(e){fail=e; if(e&&["needs_reauth","server_not_connected","selection_required","not_in_manifest","approval_required","blocked_by_policy"].includes(e.code)) break;}
+  }
+  loading=false;
+  const arr=Object.values(all);
+  if(arr.length){posts=arr;setUpd(last);render();}
+  if(fail) showError(fail);
 }
 
 document.getElementById("f-next").addEventListener("click",e=>{mode="next";e.currentTarget.classList.add("on");document.getElementById("f-past").classList.remove("on");render();});
 document.getElementById("f-past").addEventListener("click",e=>{mode="past";e.currentTarget.classList.add("on");document.getElementById("f-next").classList.remove("on");render();});
-document.getElementById("reload").addEventListener("click",()=>load(true));
+document.getElementById("reload").addEventListener("click",()=>load());
 
 (async()=>{
-  const mcp=window.claude&&window.claude.use?await window.claude.use("mcp"):null;
+  let mcp=null;
+  try{mcp=window.claude&&window.claude.use?await window.claude.use("mcp"):null;}catch(e){}
   if(!mcp){out.replaceChildren(el("div","msg","Abra esta página dentro do Claude (app ou claude.ai) para ver os posts do Metricool."));return;}
-  mcpRef=mcp;
-  unsub=mcp.watchTool(SERVER,TOOL,input(),ev=>{
-    if(ev.type==="data") take(ev.result);
-    else{const c=ev.error&&ev.error.code;if(c==="approval_required"||c==="not_in_manifest"){load(true);} else showError(ev.error);}
-  },{cache:{staleTime:60000,gcTime:600000},refetchInterval:300000});
+  mcpRef=mcp; load(); setInterval(load,300000);
 })();
 </script>
