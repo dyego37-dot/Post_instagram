@@ -36,3 +36,5 @@
 2026-11-09 | reels 12h | tutorial: como conectar a Shopee
 2026-11-10 | reels 12h | tutorial: como conectar o Mercado Livre
 2026-11-13 | reels 12h | tutorial: como conectar a Magalu
+2026-11-12 | reels 12h | tutorial: como conectar a Lomadee
+2026-11-14 | reels 12h | tutorial: como conectar a Amazon
