@@ -41,3 +41,4 @@
 2026-11-15 | reels 12h | tutorial: como conectar o Instagram
 2026-11-09 | carrossel 6 telas | Você manda link que não abre? (produto esgotado, o sistema confere antes de postar; teste 7 dias)
 - 2026-11-16 12h | reel Como virar afiliado do zero (59s, voz ElevenLabs Nassif, estilo cartões de app) | Shopee, ML, Lomadee, Amazon 3 vendas/180 dias, Magalu Parceiro; no sistema Shopee/ML/Lomadee automáticas, Amazon/Magalu por link/extensão no computador (final: comenta EU QUERO / 7 dias no link da bio)
+2026-11-10 | reel | Você sabe qual oferta trouxe clique? (fila 2: posta no escuro x painel mostra de onde vem cada clique; 6h + story 6h05; teste 7 dias no link da bio)

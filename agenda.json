@@ -288,6 +288,35 @@
    ]
   },
   {
+   "id": "2026-11-10-0600-reel-oferta-clique",
+   "quando": "2026-11-10 06:00",
+   "tipo": "reel",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Você sabe qual oferta trouxe clique?",
+   "legenda": "Você sabe qual oferta trouxe clique?\n\nMuitos afiliados postam todo dia e nunca descobrem de onde veio o resultado. O sistema mostra no painel de onde vem cada clique, por canal, e você decide onde focar.\n\nQuantos cliques você consegue acompanhar hoje? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    "posts/2026-11-10/reel_1110.mp4"
+   ],
+   "capa": "posts/2026-11-10/capa_1110.jpg"
+  },
+  {
+   "id": "2026-11-10-0605-story",
+   "quando": "2026-11-10 06:05",
+   "tipo": "story",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Story do post das 6h",
+   "legenda": "",
+   "midias": [
+    "posts/2026-11-10/story_1110.jpg"
+   ]
+  },
+  {
    "id": "2026-11-10-1200-reel-tutorial-mercadolivre",
    "quando": "2026-11-10 12:00",
    "tipo": "reel",
