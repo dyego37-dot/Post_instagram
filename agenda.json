@@ -67,6 +67,70 @@
    ]
   },
   {
+   "id": "2026-11-08-2205-story-vsl-parte1-facebook",
+   "quando": "2026-11-08 22:05",
+   "tipo": "story",
+   "redes": [
+    "facebook"
+   ],
+   "titulo": "Story VSL parte 1 de 4 (só Facebook)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte1.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-5249533735922943534.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-08-2208-story-vsl-parte2-facebook",
+   "quando": "2026-11-08 22:08",
+   "tipo": "story",
+   "redes": [
+    "facebook"
+   ],
+   "titulo": "Story VSL parte 2 de 4 (só Facebook)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte2.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-3719487586438331752.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-08-2211-story-vsl-parte3-facebook",
+   "quando": "2026-11-08 22:11",
+   "tipo": "story",
+   "redes": [
+    "facebook"
+   ],
+   "titulo": "Story VSL parte 3 de 4 (só Facebook)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte3.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-18198474233890668021.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-08-2214-story-vsl-parte4-facebook",
+   "quando": "2026-11-08 22:14",
+   "tipo": "story",
+   "redes": [
+    "facebook"
+   ],
+   "titulo": "Story VSL parte 4 de 4 (só Facebook)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte4.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-6348343575153101860.mp4"
+    ]
+   ]
+  },
+  {
    "id": "2026-11-09-0600-carrossel-link-nao-abre",
    "quando": "2026-11-09 06:00",
    "tipo": "carrossel",
