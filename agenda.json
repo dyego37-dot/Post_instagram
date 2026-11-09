@@ -3,6 +3,70 @@
  "obs": "Agenda do @sistemaafiliados lida pelo plugin Agendador de Posts (sistemaafiliado.com.br). Formato em AGENDA.md.",
  "posts": [
   {
+   "id": "2026-11-09-2000-story-vsl-parte1",
+   "quando": "2026-11-08 21:50",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 1 de 4 (teste hoje)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte1.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-5249533735922943534.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-09-2003-story-vsl-parte2",
+   "quando": "2026-11-08 21:53",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 2 de 4 (teste hoje)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte2.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-3719487586438331752.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-09-2006-story-vsl-parte3",
+   "quando": "2026-11-08 21:56",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 3 de 4 (teste hoje)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte3.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-18198474233890668021.mp4"
+    ]
+   ]
+  },
+  {
+   "id": "2026-11-09-2009-story-vsl-parte4",
+   "quando": "2026-11-08 21:59",
+   "tipo": "story",
+   "redes": [
+    "instagram"
+   ],
+   "titulo": "Story VSL parte 4 de 4 (teste hoje)",
+   "legenda": "",
+   "midias": [
+    [
+     "posts/2026-11-08-vsl/Story_parte4.mp4",
+     "https://static.metricool.com/planner/202611/7676659-file-6348343575153101860.mp4"
+    ]
+   ]
+  },
+  {
    "id": "2026-11-09-0600-carrossel-link-nao-abre",
    "quando": "2026-11-09 06:00",
    "tipo": "carrossel",
@@ -157,70 +221,6 @@
    "redes": [
     "instagram",
     "facebook"
-   ]
-  },
-  {
-   "id": "2026-11-09-2000-story-vsl-parte1",
-   "quando": "2026-11-09 20:00",
-   "tipo": "story",
-   "redes": [
-    "instagram"
-   ],
-   "titulo": "Story VSL parte 1 de 4 (remarcado de 08/11)",
-   "legenda": "",
-   "midias": [
-    [
-     "posts/2026-11-08-vsl/Story_parte1.mp4",
-     "https://static.metricool.com/planner/202611/7676659-file-5249533735922943534.mp4"
-    ]
-   ]
-  },
-  {
-   "id": "2026-11-09-2003-story-vsl-parte2",
-   "quando": "2026-11-09 20:03",
-   "tipo": "story",
-   "redes": [
-    "instagram"
-   ],
-   "titulo": "Story VSL parte 2 de 4 (remarcado de 08/11)",
-   "legenda": "",
-   "midias": [
-    [
-     "posts/2026-11-08-vsl/Story_parte2.mp4",
-     "https://static.metricool.com/planner/202611/7676659-file-3719487586438331752.mp4"
-    ]
-   ]
-  },
-  {
-   "id": "2026-11-09-2006-story-vsl-parte3",
-   "quando": "2026-11-09 20:06",
-   "tipo": "story",
-   "redes": [
-    "instagram"
-   ],
-   "titulo": "Story VSL parte 3 de 4 (remarcado de 08/11)",
-   "legenda": "",
-   "midias": [
-    [
-     "posts/2026-11-08-vsl/Story_parte3.mp4",
-     "https://static.metricool.com/planner/202611/7676659-file-18198474233890668021.mp4"
-    ]
-   ]
-  },
-  {
-   "id": "2026-11-09-2009-story-vsl-parte4",
-   "quando": "2026-11-09 20:09",
-   "tipo": "story",
-   "redes": [
-    "instagram"
-   ],
-   "titulo": "Story VSL parte 4 de 4 (remarcado de 08/11)",
-   "legenda": "",
-   "midias": [
-    [
-     "posts/2026-11-08-vsl/Story_parte4.mp4",
-     "https://static.metricool.com/planner/202611/7676659-file-6348343575153101860.mp4"
-    ]
    ]
   },
   {
