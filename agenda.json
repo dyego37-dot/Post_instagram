@@ -404,6 +404,39 @@
    ]
   },
   {
+   "id": "2026-11-11-0600-carrossel-link-certo",
+   "quando": "2026-11-11 06:00",
+   "tipo": "carrossel",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Seu link de afiliado está certo?",
+   "legenda": "SEU LINK DE AFILIADO ESTÁ CERTO?\n\nGerar link na mão em cada oferta e copiar e colar em cada grupo: um caractere errado e a venda não conta. E ainda sobra pouco tempo pro resto do dia.\n\nO Sistema de Afiliados gera o seu link de afiliado sozinho em cada oferta e já monta a mensagem com o link dentro. Você não copia nem cola nada.\n\nQuantas horas por dia você gasta copiando link? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    "posts/2026-11-11/01.jpg",
+    "posts/2026-11-11/02.jpg",
+    "posts/2026-11-11/03.jpg",
+    "posts/2026-11-11/04.jpg",
+    "posts/2026-11-11/05.jpg",
+    "posts/2026-11-11/06.jpg"
+   ]
+  },
+  {
+   "id": "2026-11-11-0605-story",
+   "quando": "2026-11-11 06:05",
+   "tipo": "story",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Story do post das 6h",
+   "legenda": "",
+   "midias": [
+    "posts/2026-11-11/story_1111.jpg"
+   ]
+  },
+  {
    "id": "2026-11-11-1200-reel-grupos-reais",
    "quando": "2026-11-11 12:00",
    "tipo": "reel",
