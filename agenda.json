@@ -479,6 +479,37 @@
    ]
   },
   {
+    "id": "2026-11-12-0600-reel-nao-sabe-postar",
+    "quando": "2026-11-12 06:00",
+    "tipo": "reel",
+    "redes": [
+      "instagram",
+      "facebook"
+    ],
+    "titulo": "Não sabe o que postar hoje?",
+    "legenda": "Não sabe o que postar hoje?\n\nTodo dia a mesma dúvida: qual produto escolher e qual oferta combina com o seu grupo? O sistema olha as categorias e o nicho do seu grupo, escolhe as ofertas que fazem sentido e confere se o produto ainda está na loja antes de postar.\n\nVocê ainda perde tempo pensando no que postar?\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+    "midias": [
+      "posts/2026-11-12/reel_1112.mp4"
+    ],
+    "capa": "posts/2026-11-12/capa_1112.jpg",
+    "cancelado": false
+  },
+  {
+    "id": "2026-11-12-0605-story",
+    "quando": "2026-11-12 06:05",
+    "tipo": "story",
+    "redes": [
+      "instagram",
+      "facebook"
+    ],
+    "titulo": "Story do post das 6h",
+    "legenda": "",
+    "midias": [
+      "posts/2026-11-12/story_1112.jpg"
+    ],
+    "cancelado": false
+  },
+  {
    "id": "2026-11-12-1200-reel-tutorial-lomadee",
    "quando": "2026-11-12 12:00",
    "tipo": "reel",
