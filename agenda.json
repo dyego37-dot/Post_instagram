@@ -549,6 +549,39 @@
    ]
   },
   {
+   "id": "2026-11-13-0600-carrossel-3-lugares",
+   "quando": "2026-11-13 06:00",
+   "tipo": "carrossel",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Postar em 3 lugares ao mesmo tempo?",
+   "legenda": "Postar em 3 lugares ao mesmo tempo?\n\nCopiar a mesma oferta pro WhatsApp, refazer o texto pro Instagram e colar de novo no Telegram toma tempo todo dia. E um canal esquecido é venda que não acontece.\n\nO Sistema de Afiliados adapta a mesma oferta para cada canal e posta no horário que você escolher.\n\nQuantos canais você atualiza hoje? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    "posts/2026-11-13/01.jpg",
+    "posts/2026-11-13/02.jpg",
+    "posts/2026-11-13/03.jpg",
+    "posts/2026-11-13/04.jpg",
+    "posts/2026-11-13/05.jpg",
+    "posts/2026-11-13/06.jpg"
+   ]
+  },
+  {
+   "id": "2026-11-13-0605-story",
+   "quando": "2026-11-13 06:05",
+   "tipo": "story",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Story do post das 6h",
+   "legenda": "",
+   "midias": [
+    "posts/2026-11-13/story_1113.jpg"
+   ]
+  },
+  {
    "id": "2026-11-13-1200-reel-tutorial-magalu",
    "quando": "2026-11-13 12:00",
    "tipo": "reel",

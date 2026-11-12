@@ -47,3 +47,4 @@
 - 2026-11-17 12h | reel Tutorial: como conectar o WhatsApp (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct
 - 2026-11-18 12h | reel Tutorial: como conectar o Telegram (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct
 - 2026-11-19 12h | reel Tutorial: como configurar a Automação (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct
+2026-11-13 | carrossel 6 telas | Postar em 3 lugares ao mesmo tempo? (WhatsApp, Instagram e Telegram; uma oferta, três formatos, horário escolhido; pergunta: quantos canais atualiza hoje; teste 7 dias)
