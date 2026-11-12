@@ -44,3 +44,6 @@
 2026-11-10 | reel | Você sabe qual oferta trouxe clique? (fila 2: posta no escuro x painel mostra de onde vem cada clique; 6h + story 6h05; teste 7 dias no link da bio)
 - 2026-11-11 | carrossel 6 telas | Seu link de afiliado está certo? (gerar link na mão x sistema gera o link sozinho; pergunta: quantas horas copiando link; teste 7 dias)
 2026-11-12 | reel | Não sabe o que postar hoje? (fila 4: dúvida de produto; o sistema escolhe pelas categorias e nicho do grupo; 6h + story 6h05; teste 7 dias no link da bio)
+- 2026-11-17 12h | reel Tutorial: como conectar o WhatsApp (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct
+- 2026-11-18 12h | reel Tutorial: como conectar o Telegram (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct
+- 2026-11-19 12h | reel Tutorial: como configurar a Automação (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct

@@ -479,35 +479,35 @@
    ]
   },
   {
-    "id": "2026-11-12-0600-reel-nao-sabe-postar",
-    "quando": "2026-11-12 06:00",
-    "tipo": "reel",
-    "redes": [
-      "instagram",
-      "facebook"
-    ],
-    "titulo": "Não sabe o que postar hoje?",
-    "legenda": "Não sabe o que postar hoje?\n\nTodo dia a mesma dúvida: qual produto escolher e qual oferta combina com o seu grupo? O sistema olha as categorias e o nicho do seu grupo, escolhe as ofertas que fazem sentido e confere se o produto ainda está na loja antes de postar.\n\nVocê ainda perde tempo pensando no que postar?\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
-    "midias": [
-      "posts/2026-11-12/reel_1112_musica.mp4"
-    ],
-    "capa": "posts/2026-11-12/capa_1112.jpg",
-    "cancelado": false
+   "id": "2026-11-12-0600-reel-nao-sabe-postar",
+   "quando": "2026-11-12 06:00",
+   "tipo": "reel",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Não sabe o que postar hoje?",
+   "legenda": "Não sabe o que postar hoje?\n\nTodo dia a mesma dúvida: qual produto escolher e qual oferta combina com o seu grupo? O sistema olha as categorias e o nicho do seu grupo, escolhe as ofertas que fazem sentido e confere se o produto ainda está na loja antes de postar.\n\nVocê ainda perde tempo pensando no que postar?\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    "posts/2026-11-12/reel_1112_musica.mp4"
+   ],
+   "capa": "posts/2026-11-12/capa_1112.jpg",
+   "cancelado": false
   },
   {
-    "id": "2026-11-12-0605-story",
-    "quando": "2026-11-12 06:05",
-    "tipo": "story",
-    "redes": [
-      "instagram",
-      "facebook"
-    ],
-    "titulo": "Story do post das 6h",
-    "legenda": "",
-    "midias": [
-      "posts/2026-11-12/story_1112.jpg"
-    ],
-    "cancelado": false
+   "id": "2026-11-12-0605-story",
+   "quando": "2026-11-12 06:05",
+   "tipo": "story",
+   "redes": [
+    "instagram",
+    "facebook"
+   ],
+   "titulo": "Story do post das 6h",
+   "legenda": "",
+   "midias": [
+    "posts/2026-11-12/story_1112.jpg"
+   ],
+   "cancelado": false
   },
   {
    "id": "2026-11-12-1200-reel-tutorial-lomadee",
@@ -684,6 +684,63 @@
     "posts/2026-11-16_reel_virar_afiliado/reel_virar_afiliado.mp4"
    ],
    "capa": "posts/2026-11-16_reel_virar_afiliado/capa_virar_afiliado.jpg",
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-17-1200-reel-tutorial-whatsapp",
+   "quando": "2026-11-17 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar o WhatsApp",
+   "legenda": "Como conectar o WhatsApp no Sistema de Afiliados 👇\n\nVocê lê o QR Code, escolhe os grupos e pronto: toda oferta publicada vai sozinha para os seus grupos de WhatsApp.\n\n💡 Dica: comece devagar, com poucas mensagens por dia, para proteger o seu número.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-17_tutorial_whatsapp/tutorial_whatsapp.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-17_tutorial_whatsapp/capa_tutorial_whatsapp.jpg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-18-1200-reel-tutorial-telegram",
+   "quando": "2026-11-18 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como conectar o Telegram",
+   "legenda": "Como conectar o Telegram no Sistema de Afiliados 👇\n\nVocê cria o seu robô no BotFather, cola o token, coloca o robô como administrador do canal e pronto: as ofertas saem sozinhas no seu Telegram.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-18_tutorial_telegram/tutorial_telegram.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-18_tutorial_telegram/capa_tutorial_telegram.jpg"
+   ],
+   "redes": [
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "id": "2026-11-19-1200-reel-tutorial-automacao",
+   "quando": "2026-11-19 12:00",
+   "tipo": "reel",
+   "titulo": "Tutorial: como configurar a Automação",
+   "legenda": "Como configurar a Automação do Sistema de Afiliados 👇\n\nVocê escolhe quantas ofertas por dia, o limite do Instagram, os horários das postagens e os canais. Depois é só deixar o sistema trabalhar sozinho por você.\n\nSalva esse vídeo pra fazer depois! 📌\n\nTeste 7 dias grátis, sem cartão e sem Pix.\n✈️ Mande QUERO no Direct e receba o link na hora\n🔗 Ou toque no link da bio\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+   "midias": [
+    [
+     "posts/2026-11-19_tutorial_automacao/tutorial_automacao.mp4"
+    ]
+   ],
+   "capa": [
+    "posts/2026-11-19_tutorial_automacao/capa_tutorial_automacao.jpg"
+   ],
    "redes": [
     "instagram",
     "facebook"
