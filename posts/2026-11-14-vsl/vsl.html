@@ -1,0 +1,195 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:#020409;font-family:'Poppins','Noto Color Emoji',sans-serif;color:#fff;position:relative}
+.cam{position:absolute;inset:0;overflow:hidden;opacity:0}
+.cam img{position:absolute;left:0;top:-7px;width:1080px;height:1934px;will-change:transform}
+.tint{position:absolute;inset:0}
+.marca{position:absolute;inset:0;background:radial-gradient(ellipse 80% 50% at 50% 40%,rgba(20,90,220,.35),rgba(5,20,60,.2) 50%,transparent 78%),radial-gradient(circle at 100% 0%,rgba(30,120,255,.35),transparent 32%),radial-gradient(circle at 0% 100%,rgba(255,138,31,.18),transparent 32%),#020611;opacity:0}
+.marca svg{position:absolute;left:0;right:0;bottom:0;width:1080px;height:320px}
+.el{position:absolute;opacity:0}
+.c{left:0;right:0;text-align:center}
+.relogio{top:170px;font-weight:700;font-size:150px;letter-spacing:6px;color:#dfeaff;text-shadow:0 0 30px rgba(60,150,255,.8)}
+.gancho{left:60px;right:60px;top:380px;padding:34px 30px;border-radius:30px;background:rgba(2,6,20,.82);border:3px solid #2f8cff;box-shadow:0 0 40px rgba(40,140,255,.45);text-align:center;font-weight:700;font-size:74px;line-height:1.08;text-transform:uppercase}
+.gancho b{color:#4fb0ff}
+.noti{left:90px;right:90px;height:150px;border-radius:30px;background:rgba(255,255,255,.96);color:#111;display:flex;align-items:center;gap:26px;padding:0 30px;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.noti .ic{width:92px;height:92px;border-radius:24px;background:#25d366;display:flex;align-items:center;justify-content:center;font-size:52px;flex:none}
+.noti .tx{font-size:34px;line-height:1.2}.noti .tx b{display:block;font-size:30px;color:#555;font-weight:600}
+.cap{left:50px;right:50px;top:1500px;text-align:center;font-weight:700;font-size:72px;line-height:1.12;text-transform:uppercase;text-shadow:0 4px 0 #000,0 0 18px rgba(0,0,0,.9),3px 3px 0 #000,-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000}
+.cap span.on{color:#ffb020}
+.card{left:110px;right:110px;padding:30px 36px;border-radius:28px;font-size:44px;font-weight:700;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+.erro{background:#fff;color:#c62828;border:4px solid #e53935}
+.cinza{background:rgba(20,24,34,.92);color:#cfd6e4;border:2px solid #3a4256;font-weight:600}
+.verm{background:#fff;color:#111}.verm b{color:#e53935}
+.titulo{top:200px;font-size:68px;font-weight:700;text-transform:uppercase}
+.titulo i{font-style:normal;color:#ff8a1f}
+.logo{left:240px;width:600px;height:417px;background:url(logo_t.png) center/contain no-repeat;filter:drop-shadow(0 0 40px rgba(40,130,255,.6))}
+.anel{left:190px;width:700px;height:700px;border-radius:50%;border:6px solid rgba(47,140,255,.7);box-shadow:0 0 60px rgba(47,140,255,.6)}
+.chip{width:420px;height:130px;border-radius:30px;display:flex;align-items:center;justify-content:center;font-size:50px;font-weight:700;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.zap{left:190px;right:190px;top:620px;height:520px;border-radius:40px;background:rgba(255,255,255,.06);border:3px solid rgba(255,255,255,.18);text-align:center;padding-top:60px}
+.zap .ic{width:200px;height:200px;margin:0 auto;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;font-size:120px}
+.zap .st{margin-top:46px;font-size:56px;font-weight:700}
+.passo{width:300px;height:170px;border-radius:26px;background:rgba(255,255,255,.07);border:3px solid rgba(255,255,255,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:36px;font-weight:700;line-height:1.15;text-align:center}
+.passo .e{font-size:58px}
+.cel{left:250px;width:580px;top:600px;height:860px;border-radius:60px;background:#0b141a;border:10px solid #1c1f26;box-shadow:0 0 60px rgba(47,140,255,.35);overflow:hidden}
+.cel .bar{height:120px;background:#202c33;display:flex;align-items:center;gap:20px;padding:20px 30px 0}
+.cel .av{width:64px;height:64px;border-radius:50%;background:#ff8a1f;display:flex;align-items:center;justify-content:center;font-size:36px}
+.cel .nm{font-size:30px;font-weight:600}.cel .nm small{display:block;font-size:22px;color:#8696a0;font-weight:400}
+.msg{position:absolute;left:30px;right:60px;top:170px;background:#005c4b;border-radius:22px;padding:16px;opacity:0}
+.msg .foto{height:300px;border-radius:16px;background:linear-gradient(135deg,#ff8a1f,#ffb020 50%,#2f8cff);display:flex;align-items:center;justify-content:center;font-size:170px}
+.msg .t{font-size:26px;line-height:1.3;margin-top:14px}.msg .t s{color:#9fb3bf}.msg .t b{color:#7dffb0}
+.msg .lk{color:#53bdeb;font-size:28px;margin-top:6px}
+.selo{height:96px;padding:0 34px;border-radius:50px;display:flex;align-items:center;font-size:40px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.lista{left:70px;right:70px;top:220px;padding:34px 40px;border-radius:32px;background:rgba(2,8,24,.84);border:3px solid #2f8cff;box-shadow:0 0 40px rgba(40,140,255,.4)}
+.item{font-size:50px;font-weight:700;line-height:1.25;padding:10px 0;opacity:0}
+.item i{font-style:normal;color:#4fb0ff}
+.botao{left:110px;right:110px;padding:42px 20px;border-radius:80px;background:linear-gradient(180deg,#ffa53d,#ff7a00);text-align:center;font-size:68px;font-weight:700;line-height:1.05;text-transform:uppercase;box-shadow:0 0 50px rgba(255,138,31,.7)}
+.flash{position:absolute;inset:0;background:#fff;opacity:0}
+</style></head><body>
+<div class="cam" id="f1"><img src="img1.jpg"></div>
+<div class="cam" id="f2"><img src="img2.jpg"></div>
+<div class="cam" id="f3"><img src="img3.jpg"></div>
+<div class="cam" id="f4"><img src="img4.jpg"></div>
+<div class="cam" id="f5"><img src="img5.jpg"></div>
+<div class="cam" id="f6"><img src="img6.jpg"></div>
+<div class="tint" id="tint"></div>
+<div class="marca" id="marca"><svg viewBox="0 0 1080 320" preserveAspectRatio="none" id="waves"></svg></div>
+<div class="tint" id="brilho" style="background:radial-gradient(circle at 30% 76%,rgba(80,170,255,.55),transparent 22%);opacity:0"></div>
+
+<!-- S1 -->
+<div class="el c relogio" id="relogio">03:12</div>
+<div class="el gancho" id="g1">Ela tá <b>dormindo…</b></div>
+<div class="el gancho" id="g2">Então quem tá <b>postando?</b></div>
+<div class="el noti" id="n1"><div class="ic">💬</div><div class="tx"><b>Grupo Achadinhos · 03:12</b>🔥 Air fryer com 38% OFF</div></div>
+<div class="el noti" id="n2"><div class="ic">💬</div><div class="tx"><b>Grupo Achadinhos · 03:12</b>🎧 Fone sem fio por R$ 59,90</div></div>
+<div class="el noti" id="n3"><div class="ic">💬</div><div class="tx"><b>Grupo Achadinhos · 03:13</b>🍳 Kit panelas com 42% OFF</div></div>
+<div class="el noti" id="n4"><div class="ic">💬</div><div class="tx"><b>Grupo Achadinhos · 03:13</b>👟 Tênis de corrida pela metade</div></div>
+
+<!-- S2 -->
+<div class="el card cinza" id="copia" style="top:300px">📋 Copiar → Colar → Repetir<br><span id="cont" style="color:#ffb020">link 1</span></div>
+<div class="el card erro" id="e1" style="top:300px">⚠️ Este link não abre</div>
+<div class="el card cinza" id="e2" style="top:470px">💬 Grupo parado · ninguém clicou</div>
+<div class="el card verm" id="e3" style="top:640px">Comissão do mês: <b>R$ 3,40</b></div>
+
+<!-- S3 -->
+<div class="el c" id="ate" style="top:420px;font-size:64px;font-weight:700;text-transform:uppercase;color:#cfe0ff">Até ela ligar o</div>
+<div class="el anel" id="anel" style="top:610px"></div>
+<div class="el logo" id="logo3" style="top:750px"></div>
+
+<!-- S4 -->
+<div class="el c titulo" id="t4a"><i>1.</i> Conecta o WhatsApp</div>
+<div class="el c titulo" id="t4b"><i>2.</i> Escolhe as lojas</div>
+<div class="el c titulo" id="t4c"><i>3.</i> O sistema faz <i>sozinho</i></div>
+<div class="el zap" id="zap"><div class="ic">💬</div><div class="st" id="zst">Conectando…</div></div>
+<div class="el chip" id="l1" style="left:90px;top:420px;background:#ee4d2d">Shopee</div>
+<div class="el chip" id="l2" style="left:570px;top:420px;background:#ffe600;color:#2d3277">Mercado Livre</div>
+<div class="el chip" id="l3" style="left:90px;top:600px;background:#232f3e;color:#ff9900">Amazon</div>
+<div class="el chip" id="l4" style="left:570px;top:600px;background:#0086ff">Magalu</div>
+<div class="el chip" id="l5" style="left:330px;top:780px;background:#00a868">Lomadee</div>
+<div class="el c" id="pronto" style="top:1000px;font-size:96px;font-weight:700;color:#7dffb0;text-shadow:0 0 30px rgba(60,255,150,.5)">✅ Pronto!</div>
+<div class="el passo" id="p1" style="left:45px;top:370px"><span class="e">🔎</span>Busca a oferta</div>
+<div class="el passo" id="p2" style="left:390px;top:370px"><span class="e">🔗</span>Gera seu link</div>
+<div class="el passo" id="p3" style="left:735px;top:370px"><span class="e">🚀</span>Posta sozinho</div>
+<div class="el cel" id="cel"><div class="bar"><div class="av">🛍️</div><div class="nm">Grupo Achadinhos<small>248 participantes</small></div></div>
+ <div class="msg" id="msg"><div class="foto">🎧</div><div class="t">🔥 <b>Fone Bluetooth com 45% OFF</b><br>De <s>R$ 109,00</s> por <b>R$ 59,90</b></div><div class="lk">👉 s.shopee.com.br/seu-link</div></div></div>
+<div class="el selo" id="s1" style="left:60px;top:1260px;background:#25d366">WhatsApp ✅</div>
+<div class="el selo" id="s2" style="left:360px;top:1360px;background:linear-gradient(90deg,#f58529,#dd2a7b,#8134af)">Instagram ✅</div>
+<div class="el selo" id="s3" style="left:680px;top:1260px;background:#229ed9">Telegram ✅</div>
+<div class="el card" id="video" style="top:1150px;background:#ff8a1f;color:#fff">🎬 Também posta com o vídeo do produto</div>
+
+<!-- S5 -->
+<div class="el lista" id="lista1"><div class="item" id="i1">✅ <i>Não</i> precisa de CNPJ</div><div class="item" id="i2">💻 Configura <i>1 vez</i> no computador</div><div class="item" id="i3">📱 Depois, mexe em tudo <i>pelo celular</i></div></div>
+<div class="el lista" id="lista2"><div class="item" id="i4">😴 Você dorme…</div><div class="item" id="i5">💼 Você trabalha…</div><div class="item" id="i6">👨‍👩‍👦 Você cuida da família…</div><div class="item" id="i7">🔥 <i>E os grupos seguem recebendo ofertas</i></div></div>
+
+<!-- S6 -->
+<div class="el noti" id="m1"><div class="ic">💬</div><div class="tx"><b>Grupo Achadinhos · 02:40</b>🔥 Oferta postada no grupo</div></div>
+<div class="el noti" id="m2"><div class="ic" style="background:linear-gradient(135deg,#f58529,#dd2a7b)">📸</div><div class="tx"><b>Instagram · 04:15</b>✅ Oferta publicada no perfil</div></div>
+<div class="el noti" id="m3"><div class="ic" style="background:#229ed9">✈️</div><div class="tx"><b>Telegram · 06:05</b>✅ Oferta enviada no canal</div></div>
+<div class="el c" id="ev" style="top:330px;font-size:120px;font-weight:700;text-transform:uppercase">E você?</div>
+<div class="el c" id="mao" style="top:500px;font-size:74px;font-weight:700;line-height:1.1;padding:0 60px">Vai continuar postando <span style="color:#ff8a1f">na mão?</span></div>
+<div class="el logo" id="logo6" style="top:300px"></div>
+<div class="el botao" id="botao" style="top:820px">Teste 7 dias<br>grátis</div>
+
+<div class="el c" id="toque" style="top:1110px;font-size:58px;font-weight:700">👇 Toque no botão e comece agora</div>
+<div class="el c" id="site" style="top:1230px;font-size:48px;font-weight:600;color:#4fb0ff">sistemaafiliado.com.br</div>
+
+<div class="el cap" id="cap"></div>
+<div class="flash" id="flash"></div>
+<script>
+const W=document.getElementById('waves');let s='';for(let i=0;i<16;i++)s+=`<path d="M0 ${120+i*6} C 270 ${40+i*9}, 540 ${200-i*7}, 810 ${110+i*4} S 1080 ${60+i*8}, 1080 ${90+i*5}" stroke="rgba(47,140,255,${0.10+i*0.012})" stroke-width="1.6" fill="none"/>`;W.innerHTML=s;
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const eo=x=>1-Math.pow(1-cl(x),3);
+const back=x=>{x=cl(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+// aparece: fade+sobe; some opcional
+function show(id,t,a,b=1e9,dy=40,dur=.35,extra=''){const e=$(id);if(t<a-0.001||t>b+dur){e.style.opacity=0;return 0}
+ const pin=eo((t-a)/dur), pout=t>b?eo((t-b)/dur):0; const o=pin*(1-pout);
+ e.style.opacity=o; e.style.transform=`translateY(${(1-pin)*dy}px) ${extra}`; return o}
+function pop(id,t,a,b=1e9){const e=$(id);if(t<a||t>b+.25){e.style.opacity=0;return}
+ const p=back((t-a)/.4), po=t>b?eo((t-b)/.25):0;e.style.opacity=cl((t-a)/.15)*(1-po);e.style.transform=`scale(${.4+.6*p})`}
+function cam(id,t,a,b,z0,z1,ox,oy,fade=.3,filt=''){const e=$(id);if(t<a-fade||t>b+fade){e.style.opacity=0;return}
+ const o=Math.min(cl((t-a+fade)/fade),cl((b+fade-t)/fade));e.style.opacity=o;
+ const p=cl((t-a)/(b-a));const z=z0+(z1-z0)*p;const im=e.firstChild;im.style.transformOrigin=`${ox}% ${oy}%`;im.style.transform=`scale(${z})`;im.style.filter=filt}
+let CAPS=[];
+function caps(t){const e=$('cap');const c=CAPS.find(c=>t>=c.a&&t<c.b);
+ if(!c){e.style.opacity=0;return} e.style.opacity=1;
+ e.innerHTML=c.w.map(w=>`<span class="${t>=w[1]?'on':''}">${w[0]}</span>`).join(' ');
+ const p=eo((t-c.a)/.18);e.style.transform=`scale(${.85+.15*p})`}
+function render(t){
+ // fundos
+ cam('f1',t,0,4.3,1.0,1.18,28,76,.01);
+ const sad='saturate(.55) brightness(.85)';
+ cam('f2',t,4.3,9.1,1.04,1.14,50,40,.25,sad);
+ cam('f3',t,9.1,13.7,1.0,1.12,45,40,.25,sad);
+ cam('f4',t,29.7,34.55,1.0,1.1,55,35,.25);
+ cam('f5',t,34.55,39.0,1.08,1.0,50,45,.25);
+ cam('f6',t,39.0,42.2,1.0,1.12,45,40,.25);
+ const tint=$('tint');
+ if(t<4.3)tint.style.background='linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,0) 40%,rgba(0,0,0,.25))';
+ else if(t<13.7)tint.style.background='linear-gradient(180deg,rgba(5,10,30,.55),rgba(0,0,0,.1) 45%,rgba(0,0,0,.45))';
+ else tint.style.background='linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0) 40%,rgba(0,0,0,.45))';
+ const mk=$('marca'); const inS3S4=(t>=13.7&&t<29.7)||t>=42.2; mk.style.opacity=t>=42.2?cl((t-42.2)/.3):(t>=13.7&&t<29.7?Math.min(cl((t-13.7)/.15),cl((29.95-t)/.25)):0);
+ // brilho do celular S1
+ $('brilho').style.opacity=t<4.3?(.55+.45*Math.sin(t*9))*cl(t/0.3):0;
+ // S1
+ show('relogio',t,0.0,4.1,20,.3);
+ show('g1',t,0.9,2.0,40,.3); show('g2',t,2.1,4.1,40,.3,'');
+ ['n1','n2','n3','n4'].forEach((id,i)=>{const a=.5+i*.85;const e=$(id);
+   if(t<a||t>4.3){e.style.opacity=0;return} const p=eo((t-a)/.35);const k=Math.floor((t-a)/.85);
+   const pos=Math.min(3,(4-1-i)); // pilha: o mais novo embaixo
+   const visiveis=Math.min(4,Math.floor((t-.5)/.85)+1); const idx=visiveis-1-i;
+   e.style.opacity=p*(idx>2?0:1); e.style.top=(1240-idx*175)+'px'; e.style.transform=`translateY(${(1-p)*80}px) scale(${1-idx*.04})`});
+ // S2
+ const t2=t-4.3;
+ show('copia',t,4.3+1.74,4.3+4.75,40,.3); $('cont').textContent='link '+Math.max(1,Math.min(47,Math.floor((t2-1.74)*14)+1))+' de 47 😩';
+ show('e1',t,4.3+4.84,13.6,40,.3); show('e2',t,4.3+6.0,13.6,40,.3); show('e3',t,4.3+6.96,13.6,40,.3);
+ if(t>=4.3+6.96&&t<13.7){const e=$('e3');e.style.transform+=` rotate(${Math.sin((t-11.26)*30)*Math.max(0,1-(t-11.26)*2)*3}deg)`}
+ // S3
+ $('flash').style.opacity=(t>=13.7&&t<13.95)?(1-(t-13.7)/.25)*.85:0;
+ show('ate',t,13.7,15.6,30,.3); pop('logo3',t,14.4,15.6);
+ {const e=$('anel');if(t>=14.4&&t<15.85){const p=eo((t-14.4)/1.2);e.style.opacity=(1-p)*.9;e.style.transform=`scale(${.6+.7*p})`}else e.style.opacity=0}
+ // S4
+ const a4=15.8;
+ show('t4a',t,a4,a4+1.8,30,.25); show('t4b',t,a4+1.85,a4+5.3,30,.25); show('t4c',t,a4+5.4,29.4,30,.25);
+ pop('zap',t,a4+.05,a4+1.75); $('zst').innerHTML=t<a4+.85?'Conectando…':'<span style="color:#7dffb0">✅ Conectado</span>';
+ [1.96,2.44,3.12,3.46,3.94].forEach((w,i)=>{pop('l'+(i+1),t,a4+w,a4+5.3)});
+ pop('pronto',t,a4+4.85,a4+5.3);
+ pop('p1',t,a4+5.62,29.4); pop('p2',t,a4+7.44,29.4); pop('p3',t,a4+8.76,29.4);
+ show('cel',t,a4+5.5,29.4,120,.4);
+ {const m=$('msg');const a=a4+8.9;if(t<a){m.style.opacity=0}else{const p=back((t-a)/.45);m.style.opacity=cl((t-a)/.2);m.style.transform=`scale(${.5+.5*p})`;m.style.transformOrigin='100% 0'}}
+ pop('s1',t,a4+9.58,a4+11.2); pop('s2',t,a4+10.0,a4+11.2); pop('s3',t,a4+10.64,a4+11.2);
+ pop('video',t,a4+11.35,29.4);
+ // S5
+ const a5=29.7;
+ show('lista1',t,a5,a5+4.7,30,.3); show('i1',t,a5+.08,a5+4.7,20,.3); show('i2',t,a5+1.5,a5+4.7,20,.3); show('i3',t,a5+3.14,a5+4.7,20,.3);
+ show('lista2',t,a5+4.8,38.9,30,.3); show('i4',t,a5+5.2,38.9,20,.3); show('i5',t,a5+5.84,38.9,20,.3); show('i6',t,a5+6.26,38.9,20,.3); show('i7',t,a5+7.04,38.9,20,.3);
+ // S6
+ const a6=39.0;
+ ['m1','m2','m3'].forEach((id,i)=>{show(id,t,a6+.5+i*.6,42.1,80,.35);$(id).style.top=(300+i*175)+'px'});
+ show('ev',t,a6+3.26,a6+5.0,30,.3); show('mao',t,a6+3.7,a6+5.0,30,.3);
+ pop('logo6',t,a6+5.12);
+ {const e=$('botao');const a=a6+5.6;if(t<a)e.style.opacity=0;else{const p=back((t-a)/.45);e.style.opacity=cl((t-a)/.2);e.style.transform=`scale(${(.5+.5*p)*(1+(t>a+1?.04*Math.sin((t-a)*5):0))})`}}
+ show('toque',t,a6+7.5); show('site',t,a6+8.0);
+ // legendas: só fora da abertura, da revelação e do final
+ if(t<4.3||(t>=13.7&&t<15.8)||t>=42.2){$('cap').style.opacity=0}else caps(t);
+}
+</script></body></html>

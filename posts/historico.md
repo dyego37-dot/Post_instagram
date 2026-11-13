@@ -48,3 +48,4 @@
 - 2026-11-18 12h | reel Tutorial: como conectar o Telegram (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct
 - 2026-11-19 12h | reel Tutorial: como configurar a Automação (tela real do site de teste dmb, voz do Voice Studio) | teste 7 dias, QUERO no Direct
 2026-11-13 | carrossel 6 telas | Postar em 3 lugares ao mesmo tempo? (WhatsApp, Instagram e Telegram; uma oferta, três formatos, horário escolhido; pergunta: quantos canais atualiza hoje; teste 7 dias)
+- 2026-11-14 19h | reel VSL (vídeo de vendas, fotos realistas do Gemini + narração Voice Studio) | O celular que trabalha sozinho: 3h12 ela dorme e as ofertas saem; antes copiava link por link; liga o sistema, 3 passos (WhatsApp, lojas, posta sozinho); sem CNPJ, configura 1 vez; final teste 7 dias grátis
