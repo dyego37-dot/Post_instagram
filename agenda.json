@@ -621,6 +621,37 @@
       ]
     },
     {
+      "id": "2026-11-14-0600-reel-nao-tem-tempo",
+      "quando": "2026-11-14 06:00",
+      "tipo": "reel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Não tem tempo pro grupo?",
+      "legenda": "Trabalha o dia todo e ainda precisa postar oferta nos seus grupos? 😩\n\nEnquanto você está no trabalho, o sistema busca a oferta, gera o seu link de afiliado e posta nos grupos 24 horas por dia. Você configura uma vez no computador e depois acompanha tudo pelo celular.\n\nQuantas horas por dia você gasta com os seus grupos? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-14/reel_1114.mp4"
+      ],
+      "capa": "posts/2026-11-14/capa_1114.jpg",
+      "cancelado": false
+    },
+    {
+      "id": "2026-11-14-0605-story",
+      "quando": "2026-11-14 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-14/story_1114.jpg"
+      ],
+      "cancelado": false
+    },
+    {
       "id": "2026-11-14-1200-reel-tutorial-amazon",
       "quando": "2026-11-14 12:00",
       "tipo": "reel",
