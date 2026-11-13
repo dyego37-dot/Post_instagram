@@ -1,0 +1,95 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:#140800;font-family:'Poppins','Noto Color Emoji',sans-serif;color:#fff;position:relative}
+.cam{position:absolute;inset:0;overflow:hidden;opacity:0}
+.cam img{position:absolute;left:0;top:-7px;width:1080px;height:1934px}
+.tint{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0) 38%,rgba(0,0,0,0) 62%,rgba(0,0,0,.55))}
+.fim{position:absolute;inset:0;opacity:0;background:radial-gradient(circle at 50% 35%,#ffb23a 0%,#ff7a00 45%,#c23d00 100%)}
+.fim:before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.06) 0 30px,transparent 30px 60px)}
+.el{position:absolute;opacity:0}
+.c{left:0;right:0;text-align:center}
+.gancho{left:50px;right:50px;top:230px;padding:30px 20px;border-radius:30px;background:#ffd400;color:#1a1a1a;text-align:center;font-weight:700;font-size:92px;line-height:1.02;text-transform:uppercase;box-shadow:0 12px 0 #c79f00,0 20px 40px rgba(0,0,0,.4);transform:rotate(-2deg)}
+.preco{left:120px;right:120px;padding:26px 30px;border-radius:26px;font-weight:700;font-size:56px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.loja{background:#fff;color:#333}.loja s{color:#e53935}
+.grupo{background:#25d366;color:#fff;font-size:64px}
+.ilus{right:24px;bottom:24px;font-size:26px;color:rgba(255,255,255,.8);background:rgba(0,0,0,.45);padding:6px 14px;border-radius:12px}
+.noti{left:70px;right:70px;height:150px;border-radius:30px;background:rgba(255,255,255,.97);color:#111;display:flex;align-items:center;gap:24px;padding:0 28px;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.noti .ic{width:104px;height:96px;border-radius:24px;display:flex;align-items:center;justify-content:center;font-size:22px !important;font-weight:700;flex:none;color:#fff;text-align:center;line-height:1}
+.noti .tx{font-size:36px;line-height:1.2;font-weight:600}.noti .tx b{display:block;font-size:28px;color:#666;font-weight:600}
+.tag{height:110px;padding:0 36px;border-radius:60px;display:flex;align-items:center;font-size:48px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.card{left:90px;right:90px;padding:30px 36px;border-radius:30px;background:rgba(255,255,255,.96);color:#1a1a1a;font-size:54px;font-weight:700;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+.cap{left:50px;right:50px;top:1480px;text-align:center;font-weight:700;font-size:74px;line-height:1.12;text-transform:uppercase;text-shadow:0 4px 0 #000,0 0 18px rgba(0,0,0,.9),3px 3px 0 #000,-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000}
+.cap span.on{color:#ffd400}
+.selo{left:200px;right:200px;top:300px;padding:30px;border-radius:30px;background:#25d366;text-align:center;font-weight:700;font-size:80px;line-height:1;text-transform:uppercase;box-shadow:0 12px 0 #128c48,0 20px 40px rgba(0,0,0,.35);transform:rotate(-4deg)}
+.botao{left:90px;right:90px;padding:44px 20px;border-radius:90px;background:#25d366;text-align:center;font-size:66px;font-weight:700;line-height:1.05;text-transform:uppercase;box-shadow:0 12px 0 #128c48,0 0 60px rgba(37,211,102,.6)}
+</style></head><body>
+<div class="cam" id="f1"><img src="img1.jpg"></div>
+<div class="cam" id="f2"><img src="img2.jpg"></div>
+<div class="cam" id="f3"><img src="img3.jpg"></div>
+<div class="cam" id="f4"><img src="img4.jpg"></div>
+<div class="tint" id="tint"></div>
+<div class="fim" id="fim"></div>
+
+<div class="el gancho" id="g1">Pagou quanto nisso? 🤔</div>
+<div class="el preco loja" id="p1" style="top:620px">Na loja: <s>R$ 399,90</s></div>
+<div class="el preco grupo" id="p2" style="top:780px">No grupo: R$ 209,90 ✅</div>
+<div class="el ilus" id="ilus">valores ilustrativos</div>
+
+<div class="el noti" id="n1"><div class="ic" style="background:#ee4d2d;font-size:24px">Shopee</div><div class="tx"><b>Grupo de Achadinhos</b>🔥 Kit organizador com cupom</div></div>
+<div class="el noti" id="n2"><div class="ic" style="background:#ffe600;color:#2d3277;font-size:24px">Mercado<br>Livre</div><div class="tx"><b>Grupo de Achadinhos</b>⚡ Fone sem fio em promoção</div></div>
+<div class="el noti" id="n3"><div class="ic" style="background:#232f3e;color:#ff9900;font-size:26px">Amazon</div><div class="tx"><b>Grupo de Achadinhos</b>💸 Garrafa térmica baixou</div></div>
+<div class="el noti" id="n4"><div class="ic" style="background:#0086ff;font-size:28px">Magalu</div><div class="tx"><b>Grupo de Achadinhos</b>🍳 Air fryer em oferta</div></div>
+<div class="el tag" id="t1" style="left:70px;top:1000px;background:#ff7a00">🎟️ Cupom</div>
+<div class="el tag" id="t2" style="left:470px;top:1000px;background:#ffd400;color:#222">⚡ Relâmpago</div>
+<div class="el tag" id="t3" style="left:250px;top:1140px;background:#25d366">💸 Preço baixo</div>
+
+<div class="el card" id="k1" style="top:260px">📲 Você olha quando quiser</div>
+<div class="el card" id="k2" style="top:430px">👉 Gostou? Toca no link</div>
+<div class="el card" id="k3" style="top:600px">🛒 Compra direto na loja 🔒</div>
+
+<div class="el selo" id="selo">Grupo<br>grátis!</div>
+<div class="el c" id="h1" style="top:300px;font-size:70px;font-weight:700;text-transform:uppercase;text-shadow:0 6px 0 rgba(0,0,0,.25)">Grupo de</div>
+<div class="el c" id="h2" style="top:380px;font-size:122px;font-weight:700;text-transform:uppercase;color:#ffd400;line-height:1;text-shadow:0 8px 0 #9a3a00">Achadinhos</div>
+<div class="el c" id="h3" style="top:580px;font-size:58px;font-weight:700">Ofertas todo dia · 100% grátis</div>
+<div class="el c" id="h4" style="top:700px;font-size:52px;font-weight:600;line-height:1.35">Shopee · Mercado Livre<br>Amazon · Magalu</div>
+<div class="el botao" id="botao" style="top:960px"></div>
+<div class="el c" id="h5" style="top:1220px;font-size:56px;font-weight:700">⏳ Entre antes que encha!</div>
+
+<div class="el cap" id="cap"></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));const eo=x=>1-Math.pow(1-cl(x),3);
+const back=x=>{x=cl(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+function show(id,t,a,b=1e9,dy=40,dur=.3){const e=$(id);if(t<a||t>b+dur){e.style.opacity=0;return}
+ const pin=dur?eo((t-a)/dur):1,pout=t>b?eo((t-b)/dur):0;e.style.opacity=pin*(1-pout);e.style.translate=`0 ${(1-pin)*dy}px`}
+function pop(id,t,a,b=1e9){const e=$(id);if(t<a||t>b+.25){e.style.opacity=0;return}
+ const p=back((t-a)/.4),po=t>b?eo((t-b)/.25):0;e.style.opacity=cl((t-a)/.12)*(1-po);e.style.scale=.4+.6*p}
+function cam(id,t,a,b,z0,z1,ox,oy,fade=.25){const e=$(id);if(t<a-fade||t>b+fade){e.style.opacity=0;return}
+ e.style.opacity=Math.min(a<=0?1:cl((t-a+fade)/fade),cl((b+fade-t)/fade));
+ const p=cl((t-a)/(b-a));const im=e.firstChild;im.style.transformOrigin=`${ox}% ${oy}%`;im.style.transform=`scale(${z0+(z1-z0)*p})`}
+let CAPS=[],VERSAO='anuncio';
+function caps(t){const e=$('cap');const c=CAPS.find(c=>t>=c.a&&t<c.b);if(!c){e.style.opacity=0;return}
+ e.style.opacity=1;e.innerHTML=c.w.map(w=>`<span class="${t>=w[1]?'on':''}">${w[0]}</span>`).join(' ');e.style.scale=.85+.15*eo((t-c.a)/.18)}
+function render(t){
+ cam('f1',t,0,3.1,1.0,1.12,45,45);cam('f2',t,3.1,10.9,1.0,1.1,40,35);cam('f3',t,10.9,16.5,1.04,1.0,45,40);cam('f4',t,16.5,17.9,1.0,1.06,45,45,.2);
+ $('fim').style.opacity=cl((t-17.7)/.3);
+ // S1 (gancho já no quadro 0)
+ {const e=$('g1');e.style.opacity=t<3.0?1:0;e.style.scale=1+.03*Math.sin(t*6)}
+ pop('p1',t,1.0,3.0);pop('p2',t,1.74,3.0);
+ {const e=$('ilus');e.style.opacity=(t>=1.0&&t<3.1)?1:0}
+ // S2
+ const a2=3.1;
+ [1.32,1.8,2.5,2.84].forEach((w,i)=>{const id='n'+(i+1),e=$(id),a=a2+w;if(t<a||t>10.8){e.style.opacity=0;return}
+   const p=back((t-a)/.4);e.style.opacity=cl((t-a)/.15);e.style.top=(230+i*170)+'px';e.style.translate=`${(1-p)*-600}px 0`});
+ pop('t1',t,a2+5.1,10.8);pop('t2',t,a2+5.6,10.8);pop('t3',t,a2+6.5,10.8);
+ // S3
+ const a3=11.0;show('k1',t,a3+0.05,16.4);show('k2',t,a3+2.1,16.4);show('k3',t,a3+3.4,16.4);
+ // S4
+ const a4=16.6;pop('selo',t,a4,17.7);
+ show('h1',t,17.8,1e9,30);show('h2',t,17.95,1e9,30);show('h3',t,18.3);show('h4',t,18.6);
+ {const e=$('botao');e.innerHTML=VERSAO=='reels'?'Link do grupo<br>na bio 👆':'Entrar no grupo<br>grátis 👇';
+  const a=18.0;if(t<a)e.style.opacity=0;else{e.style.opacity=cl((t-a)/.15);e.style.scale=(.5+.5*back((t-a)/.45))*(1+(t>a+.6?.04*Math.sin((t-a)*6):0))}}
+ show('h5',t,19.1);
+ if(t>=17.7||t<3.1)$('cap').style.opacity=0;else caps(t);
+}
+</script></body></html>
