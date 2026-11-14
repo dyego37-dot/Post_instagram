@@ -718,6 +718,39 @@
       ]
     },
     {
+      "id": "2026-11-15-0600-carrossel-quantos-grupos",
+      "quando": "2026-11-15 06:00",
+      "tipo": "carrossel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Quantos grupos você consegue cuidar sozinho?",
+      "legenda": "Quantos grupos você consegue cuidar sozinho?\n\nUm grupo dá. Três já não dá, principalmente quando cada um tem um assunto diferente. O Sistema de Afiliados busca as ofertas, gera o seu link de afiliado, monta a mensagem e posta em cada grupo, no assunto certo, 24 horas por dia.\n\nQuantos grupos você cuida hoje? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-15/01.jpg",
+        "posts/2026-11-15/02.jpg",
+        "posts/2026-11-15/03.jpg",
+        "posts/2026-11-15/04.jpg",
+        "posts/2026-11-15/05.jpg",
+        "posts/2026-11-15/06.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-15-0605-story",
+      "quando": "2026-11-15 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-15/story_1115.jpg"
+      ]
+    },
+    {
       "id": "2026-11-15-1200-reel-tutorial-instagram",
       "quando": "2026-11-15 12:00",
       "tipo": "reel",

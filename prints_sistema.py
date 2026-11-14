@@ -14,6 +14,8 @@ LIMPA=r'''()=>{
  document.querySelectorAll('canvas').forEach(cv=>{const box=cv.closest('.oa-box,.oa-card-grafico,.oa-colunas-auto > *');if(box&&!/De onde vieram/.test(box.innerText))box.style.display='none'});
  document.querySelectorAll('*').forEach(e=>{const cs=getComputedStyle(e);if(cs.position==='fixed'&&e.offsetWidth<100&&e.offsetHeight<200&&!e.closest('#wpadminbar'))e.style.display='none'});
  document.querySelectorAll('#wp-admin-bar-root-default > li').forEach(li=>{if(/Renovar/.test(li.innerText))li.style.display='none'});
+ document.querySelectorAll('#adminmenu > li, #adminmenu a, #adminmenu .wp-menu-name').forEach(e=>{if(/Renovar/.test(e.innerText||e.textContent)&&(e.innerText||e.textContent).length<60)e.style.display='none'});
+ document.querySelectorAll('#adminmenu > li').forEach(e=>{if(/Renovar/.test(e.textContent)&&e.textContent.length<60)e.style.display='none'});
 }'''
 DASH=NUM.get('painel',['186','42','12','58','214','9'])
 def grafico(pg, series):

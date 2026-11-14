@@ -50,3 +50,4 @@
 2026-11-13 | carrossel 6 telas | Postar em 3 lugares ao mesmo tempo? (WhatsApp, Instagram e Telegram; uma oferta, três formatos, horário escolhido; pergunta: quantos canais atualiza hoje; teste 7 dias)
 - 2026-11-15 19h | reel VSL (vídeo de vendas, fotos realistas do Gemini + narração Voice Studio) | O celular que trabalha sozinho: 3h12 ela dorme e as ofertas saem; antes copiava link por link; liga o sistema, 3 passos (WhatsApp, lojas, posta sozinho); sem CNPJ, configura 1 vez; final teste 7 dias grátis
 2026-11-14 | reel | Não tem tempo pro grupo? (fila 5: trabalha o dia todo; configura uma vez e posta sozinho; 6h + story 6h05; teste 7 dias no link da bio)
+2026-11-15 | carrossel com prints (domingo) | Quantos grupos você consegue cuidar sozinho? (fila 6; prints do painel com números ilustrativos; 6h + story 6h05; teste 7 dias)
