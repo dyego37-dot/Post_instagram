@@ -789,6 +789,35 @@
       ]
     },
     {
+      "id": "2026-11-16-0600-reel-depende-de-alguem",
+      "quando": "2026-11-16 06:00",
+      "tipo": "reel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Você depende de alguém pra postar?",
+      "legenda": "Você depende de alguém pra postar suas ofertas nos grupos?\n\nSe essa pessoa falta, a oferta fica parada e o grupo perde o ritmo. O sistema busca a oferta, gera o seu link de afiliado, monta a mensagem e posta sozinho, 24 horas por dia.\n\nQuem posta pra você hoje? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-16/reel_1116.mp4"
+      ],
+      "capa": "posts/2026-11-16/capa_1116.jpg"
+    },
+    {
+      "id": "2026-11-16-0605-story",
+      "quando": "2026-11-16 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-16/story_1116.jpg"
+      ]
+    },
+    {
       "id": "2026-11-16-1200-reel-virar-afiliado-do-zero",
       "quando": "2026-11-16 12:00",
       "tipo": "reel",
