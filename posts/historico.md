@@ -54,3 +54,4 @@
 2026-11-16 | reel | Você depende de alguém pra postar? (fila nova 9: dependência de ajudante; fila 8 pulada por repetir a dor da tirinha de 12/11; 6h + story 6h05; teste 7 dias no link da bio)
 2026-11-17 | carrossel 6 telas | Você esquece de postar e perde a venda? (fila nova 10: esquecer de postar na hora certa; o sistema posta no horário; 6h + story 6h05; teste 7 dias no link da bio)
 2026-11-18 | reel | Vai viajar? E o seu grupo para? (fila nova 11: sair de férias e o grupo esfria; o sistema posta 24h; 6h + story 6h05; teste 7 dias no link da bio)
+2026-11-19 | carrossel 6 telas | Você tem medo de configurar e errar? (fila nova 12: medo de começar por causa da configuração; o sistema faz o resto; 6h + story 6h05; teste 7 dias no link da bio)

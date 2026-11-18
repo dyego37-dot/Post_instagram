@@ -937,6 +937,39 @@
       ]
     },
     {
+      "id": "2026-11-19-0600-carrossel-medo-configurar",
+      "quando": "2026-11-19 06:00",
+      "tipo": "carrossel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Você tem medo de configurar e errar?",
+      "legenda": "Você tem medo de configurar e errar?\n\nMuita gente nem começa por causa disso. A configuração é feita uma vez, no começo, com passo a passo. Depois, o sistema busca as ofertas, gera o seu link de afiliado e posta nos seus grupos sozinho, 24h, e você acompanha tudo pelo celular.\n\nQual parte te dá mais medo: configurar ou confiar que vai dar certo? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-19/01.jpg",
+        "posts/2026-11-19/02.jpg",
+        "posts/2026-11-19/03.jpg",
+        "posts/2026-11-19/04.jpg",
+        "posts/2026-11-19/05.jpg",
+        "posts/2026-11-19/06.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-19-0605-story",
+      "quando": "2026-11-19 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-19/story_1119.jpg"
+      ]
+    },
+    {
       "id": "2026-11-19-1200-reel-tutorial-automacao",
       "quando": "2026-11-19 12:00",
       "tipo": "reel",
