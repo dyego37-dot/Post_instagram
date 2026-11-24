@@ -1051,6 +1051,41 @@
       ]
     },
     {
+      "id": "2026-11-25-0600-carrossel-planilha",
+      "quando": "2026-11-25 06:00",
+      "tipo": "carrossel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Você ainda controla as ofertas numa planilha?",
+      "legenda": "Você ainda controla as ofertas numa planilha?\n\nCopiar o link de cada oferta, colar em cada grupo e ainda lembrar de tirar o que já saiu do ar toma o dia inteiro. O sistema busca as ofertas nas lojas, gera o seu link de afiliado e confere se o produto ainda está na loja antes de postar.\n\nQuanto tempo do seu dia vai nessa planilha? Conta aqui nos comentários 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-25/01.jpg",
+        "posts/2026-11-25/02.jpg",
+        "posts/2026-11-25/03.jpg",
+        "posts/2026-11-25/04.jpg",
+        "posts/2026-11-25/05.jpg",
+        "posts/2026-11-25/06.jpg"
+      ],
+      "cancelado": false
+    },
+    {
+      "id": "2026-11-25-0605-story",
+      "quando": "2026-11-25 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-25/story_1125.jpg"
+      ],
+      "cancelado": false
+    },
+    {
       "id": "2026-12-05-1200-reel-tirinha-madrugada",
       "quando": "2026-12-05 12:00",
       "tipo": "reel",
