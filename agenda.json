@@ -1086,6 +1086,35 @@
       "cancelado": false
     },
     {
+      "id": "2026-11-26-0600-reel-quanto-vale-sua-hora",
+      "quando": "2026-11-26 06:00",
+      "tipo": "reel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Quanto vale a sua hora postando oferta na mão?",
+      "legenda": "Quanto vale a sua hora postando oferta na mão?\n\nVocê copia o link, cola no grupo, refaz o texto pro Instagram e pro Telegram... e no fim do dia, quanto sobrou? O Sistema de Afiliados busca a oferta, gera o seu link de afiliado e posta nos seus grupos sozinho, 24 horas por dia. Você configura uma vez e depois acompanha tudo pelo celular.\n\nQuantas horas você gasta por dia com isso? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-26/reel_1126.mp4"
+      ],
+      "capa": "posts/2026-11-26/capa_1126.jpg"
+    },
+    {
+      "id": "2026-11-26-0605-story",
+      "quando": "2026-11-26 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-26/story_1126.jpg"
+      ]
+    },
+    {
       "id": "2026-12-05-1200-reel-tirinha-madrugada",
       "quando": "2026-12-05 12:00",
       "tipo": "reel",
