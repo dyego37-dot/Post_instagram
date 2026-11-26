@@ -59,3 +59,4 @@
 - 2026-11-24 | reel | Você fica preso no computador? (nova dor fora da fila: configura uma vez e depois o celular; 6h + story 6h05; teste 7 dias no link da bio)
 - 2026-11-25 | carrossel 6 telas | Você ainda controla as ofertas numa planilha? (fila nova 14: planilha de ofertas feita na mão; o sistema busca, gera o link e confere o produto; 6h + story 6h05; teste 7 dias no link da bio)
 - 2026-11-26 | reel 14s (fila nova 15: quanto vale a hora postando na mão; pergunta: quantas horas gasta por dia; 6h + story 6h05; teste 7 dias no link da bio)
+2026-11-27 | carrossel 6 telas | Você posta só uma oferta por dia na mão? (fila nova 16: volume travado pelo manual; 6h + story 6h05; teste 7 dias no link da bio)

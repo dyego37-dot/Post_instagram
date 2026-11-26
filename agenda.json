@@ -1115,6 +1115,39 @@
       ]
     },
     {
+      "id": "2026-11-27-0600-carrossel-uma-oferta-por-dia",
+      "quando": "2026-11-27 06:00",
+      "tipo": "carrossel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Você posta só uma oferta por dia na mão?",
+      "legenda": "Você posta só uma oferta por dia na mão? 🤔\n\nCada oferta é um link copiado, uma mensagem montada e uma colagem em cada grupo. Quando você cansa, o dia acaba e a venda fica na mesa.\n\nO Sistema de Afiliados busca as ofertas nas lojas, gera o seu link, confere se o produto ainda está disponível e posta nos seus grupos 24h.\n\nQuantas ofertas você consegue postar num dia? Conta aqui nos comentários 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-27/01.jpg",
+        "posts/2026-11-27/02.jpg",
+        "posts/2026-11-27/03.jpg",
+        "posts/2026-11-27/04.jpg",
+        "posts/2026-11-27/05.jpg",
+        "posts/2026-11-27/06.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-27-0605-story",
+      "quando": "2026-11-27 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-27/story_1127.jpg"
+      ]
+    },
+    {
       "id": "2026-12-05-1200-reel-tirinha-madrugada",
       "quando": "2026-12-05 12:00",
       "tipo": "reel",
