@@ -44,11 +44,11 @@ with sync_playwright() as p:
         pg.wait_for_timeout(800); pg.screenshot(path=f'{S}/prints_sistema/painel{suf}.png', full_page=False)
         # Analytics
         pg.goto(B+'oa-analytics', wait_until='networkidle'); pg.wait_for_timeout(1500); pg.evaluate(LIMPA)
-        pg.evaluate('''()=>{const n=document.querySelectorAll('.oa-card-numero');['214','9','R$ 47,30','R$ 31,80'].forEach((x,i)=>{if(n[i])n[i].textContent=x});
-          const vals={'Site':0,'Telegram':47,'WhatsApp':96,'Instagram':71};
+        pg.evaluate('''()=>{const n=document.querySelectorAll('.oa-card-numero');['228','10','R$ 41,60','R$ 31,80'].forEach((x,i)=>{if(n[i])n[i].textContent=x});
+          const vals={'Site':0,'Telegram':49,'WhatsApp':101,'Instagram':78};
           document.querySelectorAll('strong').forEach(s=>{if(s.style.width!=='50px')return;const row=s.parentElement;const t=row.innerText;
             for(const k in vals){if(t.includes(k)){s.textContent=vals[k];const bar=[...row.querySelectorAll('div')].find(d=>d.children.length===1&&d.firstElementChild.tagName==='DIV');
-              if(bar){bar.firstElementChild.style.width=(vals[k]/96*100)+'%';bar.firstElementChild.style.minWidth='0';}}}})}''')
+              if(bar){bar.firstElementChild.style.width=(vals[k]/101*100)+'%';bar.firstElementChild.style.minWidth='0';}}}})}''')
         grafico(pg, [[[2,3,4,3,5,4,6,4,5,4,5,4,4,5],[6,9,11,8,14,12,17,15,13,19,16,21,18,23],[0,1,0,0,1,0,1,0,2,0,1,1,0,2]]])
         pg.wait_for_timeout(800); pg.screenshot(path=f'{S}/prints_sistema/analytics{suf}.png', full_page=False)
         c.close()

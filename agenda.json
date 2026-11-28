@@ -1177,6 +1177,39 @@
       ]
     },
     {
+      "id": "2026-11-29-0600-carrossel-quanto-ganhou",
+      "quando": "2026-11-29 06:00",
+      "tipo": "carrossel",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Você sabe quanto ganhou este mês?",
+      "legenda": "Você sabe quanto ganhou este mês?\n\nSem contar na mão e sem planilha. Quando o painel mostra as ofertas que o sistema achou, o que está agendado e a comissão estimada, você enxerga o seu número sem adivinhar. Quanto você acha que ganhou esse mês? Conta aqui 👇\n\n🔗 Teste 7 dias grátis: faça seu cadastro pelo link da bio\n💬 Ou mande QUERO no Direct que eu te explico\n\n#afiliado #afiliadoshopee #marketingdeafiliados #rendaextra #achadinhos",
+      "midias": [
+        "posts/2026-11-29/01.jpg",
+        "posts/2026-11-29/02.jpg",
+        "posts/2026-11-29/03.jpg",
+        "posts/2026-11-29/04.jpg",
+        "posts/2026-11-29/05.jpg",
+        "posts/2026-11-29/06.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-29-0605-story",
+      "quando": "2026-11-29 06:05",
+      "tipo": "story",
+      "redes": [
+        "instagram",
+        "facebook"
+      ],
+      "titulo": "Story do post das 6h",
+      "legenda": "",
+      "midias": [
+        "posts/2026-11-29/story_1129.jpg"
+      ]
+    },
+    {
       "id": "2026-12-05-1200-reel-tirinha-madrugada",
       "quando": "2026-12-05 12:00",
       "tipo": "reel",

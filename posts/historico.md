@@ -61,3 +61,4 @@
 - 2026-11-26 | reel 14s (fila nova 15: quanto vale a hora postando na mão; pergunta: quantas horas gasta por dia; 6h + story 6h05; teste 7 dias no link da bio)
 2026-11-27 | carrossel 6 telas | Você posta só uma oferta por dia na mão? (fila nova 16: volume travado pelo manual; 6h + story 6h05; teste 7 dias no link da bio)
 2026-11-28 | reel 14s (fila nova 17: você escreve cada legenda na mão; pergunta: quantas legendas escreve por dia; música TOM 2 / VARIAÇÃO 5; 6h + story 6h05; teste 7 dias no link da bio)
+- 2026-11-29 | carrossel com prints (domingo) | Você sabe quanto ganhou este mês? (fila nova 18: não saber a comissão; prints ilustrativos com 228 cliques, 10 vendas, R$ 41,60 estimada; 6h + story 6h05; teste 7 dias no link da bio)
